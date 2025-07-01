@@ -9,13 +9,14 @@
 <body>
   <div class="container">
     <h1>English to Nepali Flashcards</h1>
-    <div class="topics">
+    <div id="topic-selection" class="topics">
       <button onclick="showTopic('greetings')">Greetings</button>
       <button onclick="showTopic('introductions')">Introductions</button>
       <button onclick="showTopic('routine')">Daily Routine</button>
       <button onclick="showTopic('food')">Food & Drink</button>
       <button onclick="showTopic('travel')">Travel</button>
     </div>
+    <button id="back-to-topics" class="back-button" onclick="goBackToTopics()" style="display:none;">← Back to Topics</button>
     <div id="flashcards" class="flashcards"></div>
   </div>
   <script src="script.js"></script>
