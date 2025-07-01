@@ -8,7 +8,7 @@ const data = {
     ["Nice to meet you", "Tapaailaai bhetera khushi lagyo"],
     ["Goodbye", "Albida / Namaste"],
     ["See you soon", "Chittaai bhetaulaa"],
-    ["See you again", "Feri bhetaulaa"]
+    ["See you again", "Feri bhetaulaa"], // Corrected missing bracket
     ["Take care", "Dhyān rakhnu hos"],
     ["Thank you", "Dhanyabaad"]
   ],
@@ -65,12 +65,39 @@ const data = {
 
 function showTopic(topic) {
   const flashcardContainer = document.getElementById("flashcards");
+  const topicSelection = document.getElementById("topic-selection");
+  const backButton = document.getElementById("back-to-topics");
+
   flashcardContainer.innerHTML = "";
+  topicSelection.style.display = "none"; // Hide topic buttons
+  backButton.style.display = "block"; // Show back button
 
   data[topic].forEach(([eng, nep]) => {
     const card = document.createElement("div");
     card.className = "card";
-    card.innerHTML = `<strong>${eng}</strong><span>${nep}</span>`;
+    card.innerHTML = `
+      <div class="card-inner">
+        <div class="card-front">
+          <strong>${eng}</strong>
+        </div>
+        <div class="card-back">
+          <span>${nep}</span>
+        </div>
+      </div>
+    `;
+    card.addEventListener("click", () => {
+      card.classList.toggle("flipped");
+    });
     flashcardContainer.appendChild(card);
   });
+}
+
+function goBackToTopics() {
+  const flashcardContainer = document.getElementById("flashcards");
+  const topicSelection = document.getElementById("topic-selection");
+  const backButton = document.getElementById("back-to-topics");
+
+  flashcardContainer.innerHTML = ""; // Clear flashcards
+  topicSelection.style.display = "flex"; // Show topic buttons
+  backButton.style.display = "none"; // Hide back button
 }
