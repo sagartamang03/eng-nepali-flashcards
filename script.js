@@ -84,6 +84,7 @@ const data = {
     ["One Hundred", "Ek Saye", "एक सय"]
   ],
   family: [
+    // --- Original Vocabulary ---
     ["Family", "Pariwaar", "परिवार"],
     ["Father", "Buba", "बुबा"],
     ["Mother", "Aama", "आमा"],
@@ -92,8 +93,19 @@ const data = {
     ["Husband", "Shrimaan", "श्रीमान्"],
     ["Wife", "Shrimati", "श्रीमती"],
     ["Son", "Chhora", "छोरा"],
-    ["Daughter", "Chhori", "छोरी"]
+    ["Daughter", "Chhori", "छोरी"],
+    // --- New Phrases ---
+    ["This is my father.", "Yo mero buba hunuhunchha.", "यो मेरो बुबा हुनुहुन्छ।"],
+    ["This is my mother.", "Yo mero aama hunuhunchha.", "यो मेरो आमा हुनुहुन्छ।"],
+    ["I have one brother.", "Mero euta bhaai chha.", "मेरो एउटा भाइ छ।"],
+    ["I have two sisters.", "Mero dui jana didi/bahini chhan.", "मेरो दुई जना दिदी/बहिनी छन्।"],
+    ["Do you have siblings?", "Tapainko daaju-bhaai, didi-bahini hunuhunchha?", "तपाईंको दाजु-भाइ, दिदी-बहिनी हुनुहुन्छ?"],
+    ["I live with my family.", "Ma mero pariwaar sanga baschhu.", "म मेरो परिवारसँग बस्छु।"],
+    ["My family is small.", "Mero pariwaar sano chha.", "मेरो परिवार सानो छ।"],
+    ["What is your father's name?", "Tapainko buba ko naam ke ho?", "तपाईंको बुबाको नाम के हो?"],
+    ["My mother's name is...", "Mero aama ko naam ... ho.", "मेरी आमाको नाम ... हो।"]
   ],
+
   health: [
     ["I feel sick", "Malai sancho chhaina", "मलाई सन्चो छैन"],
     ["I need a doctor", "Malai doctor chahiyo", "मलाई डाक्टर चाहियो"],
