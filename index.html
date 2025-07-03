@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>English to Nepali Flashcards</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nepali Language Flashcards</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <div class="container">
-    <h1>English to Nepali Flashcards</h1>
+    <h1>Nepali Language Flashcards</h1>
+
     <div id="topic-selection" class="topics">
       <button onclick="showTopic('greetings')">Greetings</button>
       <button onclick="showTopic('introductions')">Introductions</button>
-      <button onclick="showTopic('routine')">Daily Routine</button>
-      <button onclick="showTopic('food')">Food & Drink</button>
+      <button onclick="showTopic('routine')">Routine</button>
+      <button onclick="showTopic('food')">Food</button>
       <button onclick="showTopic('travel')">Travel</button>
+      <button onclick="showTopic('shopping')">Shopping</button>
+      <button onclick="showTopic('numbers')">Numbers</button>
+      <button onclick="showTopic('family')">Family</button>
+      <button onclick="showTopic('health')">Health</button>
+      <button onclick="showTopic('daysAndTime')">Days & Time</button>
     </div>
-    <button id="back-to-topics" class="back-button" onclick="goBackToTopics()" style="display:none;">← Back to Topics</button>
-    <div id="flashcards" class="flashcards"></div>
+
+    <button id="back-to-topics" class="back-button" onclick="goBackToTopics()" style="display: none;">
+      ← Back to Topics
+    </button>
+    
+    <div id="flashcards" class="flashcards">
+      </div>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
