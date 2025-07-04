@@ -87,7 +87,7 @@ const data = {
   family: [
     // --- Original Vocabulary ---
     ["Family", "Pariwaar", "परिवार"],
-    ["Father", "Buba", "बुबा"],
+    ["Father", "Buva", "बुवा"],
     ["Mother", "Aama", "आमा"],
     ["Brother (elder/younger)", "Daai / Bhaai", "दाइ / भाइ"],
     ["Sister (elder/younger)", "Didi / Bahini", "दिदी / बहिनी"],
@@ -129,6 +129,83 @@ const data = {
     ["Yesterday", "Hijo", "हिजो"],
     ["Today", "Aaja", "आज"],
     ["Tomorrow", "Bholi", "भोलि"]
+  ],
+  weather: [
+    ["How's the weather?", "Aaja ko mausam kasto chha?", "आजको मौसम कस्तो छ?"],
+    ["It is sunny", "Gham laageko chha", "घाम लागेको छ"],
+    ["It is raining", "Paani pariraheko chha", "पानी परिरहेको छ"],
+    ["It is cold", "Jado chha", "जाडो छ"],
+    ["It is hot", "Garmi chha", "गर्मी छ"],
+    ["It is cloudy", "Baadal laageko chha", "बादल लागेको छ"]
+  ],
+
+  hobbies: [
+    ["What are your hobbies?", "Tapaaiko shauk ke ke ho?", "तपाईंको शौक के के हो?"],
+    ["I like reading", "Malai padhna man parchha", "मलाई पढ्न मन पर्छ"],
+    ["I like music", "Malai sangeet man parchha", "मलाई संगीत मन पर्छ"],
+    ["I enjoy traveling", "Malai ghumna man parchha", "मलाई घुम्न मन पर्छ"],
+    ["I play football", "Ma football khelchhu", "म फुटबल खेल्छु"]
+  ],
+
+  work: [
+    ["Where do you work?", "Tapai kahaan kaam garnuhunchha?", "तपाईं कहाँ काम गर्नुहुन्छ?"],
+    ["I work in office", "Ma office maa kaam garchhu", "म अफिसमा काम गर्छु"],
+    ["I am a teacher", "Ma shikshak ho", "म शिक्षक हुँ"],
+    ["I am a doctor", "Ma chikitsak ho", "म चिकित्सक हुँ"],
+    ["Do you like your job?", "Tapai lai tapaaiko kaam man parchha?", "तपाईंलाई तपाईंको काम मन पर्छ?"]
+  ],
+
+  opinions: [
+  ["What do you think?", "Tapaailaai ke laagchha?", "तपाईलाई के लाग्छ?"],
+  ["I think it's good", "Malai laagchha yo ramro chha", "मलाई लाग्छ यो राम्रो छ"],
+  ["I don't like it", "Malai yo man pardaina", "मलाई यो मन पर्दैन"],
+  ["That's interesting", "Yo chaakhlaagdo chha", "यो चाखलाग्दो छ"],
+  ["I agree", "Ma sahamat chhu", "म सहमत छु"],
+  ["I disagree", "Ma asahamat chhu", "म असहमत छु"],
+  ["In my opinion...", "Mero bichaar maa...", "मेरो विचारमा..."]
+  ],
+
+  relationships: [
+  ["Are you married?", "Ke tapaai vivahit hunuhuncha?", "के तपाईं विवाहित हुनुहुन्छ?"],
+  ["I am single", "Ma eklo chhu", "म एक्लो छु"],
+  ["I have a partner", "Mero sathi chha", "मेरो साथी छ"],
+  ["This is my wife", "Yo mero shrimati ho", "यो मेरी श्रीमती हो"],
+  ["This is my husband", "Yo mero srimaan ho", "यो मेरा श्रीमान् हुन्"],
+  ["We are friends", "Haami saathi hau", "हामी साथी हौं"],
+  ["I love you", "Ma timilai maya garchhu", "म तिमीलाई माया गर्छु"]
+],
+
+technology: [
+  ["Do you use a smartphone?", "Tapai smartphone prayog garnuhunchha?", "तपाईं स्मार्टफोन प्रयोग गर्नुहुन्छ?"],
+  ["I use the internet a lot", "Ma dherai internet prayog garchhu", "म धेरै इन्टरनेट प्रयोग गर्छु"],
+  ["Do you use social media?", "Tapai social media chalaunuhunchha?", "तपाईं सोसियल मिडिया चलाउनुहुन्छ?"],
+  ["I like new technology", "Malai nyaa technology man parchha", "मलाई नयाँ technology मन पर्छ"],
+  ["I work with computers", "Ma computer sanga kaam garchhu", "म कम्प्युटरसँग काम गर्छु"],
+  ["What apps do you use?", "Tapai kun apps haru chalaunuhunchha?", "तपाईं कुन एप्सहरू चलाउनुहुन्छ?"]
+],
+
+  entertainment: [
+    ["Do you watch movies?", "Tapai film hernuhunchha?", "तपाईं फिल्म हेर्नुहुन्छ?"],
+    ["I like comedy movies", "Malai comedy film man parchha", "मलाई comedy फिल्म मन पर्छ"],
+    ["Who is your favorite actor?", "Tapaaiko manparne abhineta ko ho?", "तपाईंको मनपर्ने अभिनेता को हो?"],
+    ["I listen to music", "Ma sangeet sunchhu", "म संगीत सुन्छु"],
+    ["I like dancing", "Malai nachna man parchha", "मलाई नाच्न मन पर्छ"]
+  ],
+
+  emotions: [
+    ["How are you feeling?", "Tapai lai kasto lagiraheko chha?", "तपाईंलाई कस्तो लागिरहेको छ?"],
+    ["I am happy", "Ma khushi chhu", "म खुसी छु"],
+    ["I am sad", "Ma dukhi chhu", "म दुखी छु"],
+    ["I am tired", "Ma thakeko chhu", "म थाकेको छु"],
+    ["I am excited", "Ma utshahit chhu", "म उत्साहित छु"]
+  ],
+
+  dreams: [
+    ["What is your dream?", "Tapaaiko sapana ke ho?", "तपाईंको सपना के हो?"],
+    ["I want to travel the world", "Ma sansar ghumna chaahanchhu", "म संसार घुम्न चाहन्छु"],
+    ["I want to be a doctor", "Ma doctor banna chaahanchhu", "म डाक्टर बन्न चाहन्छु"],
+    ["I want to help others", "Ma arulai madat garna chaahanchhu", "म अरुलाई मद्दत गर्न चाहन्छु"],
+    ["I want to start a business", "Ma ek byapaar suru garna chaahanchhu", "म एक व्यापार सुरु गर्न चाहन्छु"]
   ]
 };
 
