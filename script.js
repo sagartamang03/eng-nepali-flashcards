@@ -26,16 +26,16 @@ const data = {
     ["I live in...", "Ma ... maa baschhu", "म ... मा बस्छु"]
   ],
   routine: [
-    ["I wake up at 6", "Ma 6 baje uthchhu", "म ६ बजे उठ्छु"],
-    ["I brush my teeth", "Ma daat majhchhu", "म दाँत माझ्छु"],
-    ["I eat breakfast", "Ma bihanko khaja khanchhu", "म बिहानको खाजा खान्छु"],
-    ["I go to work", "Ma kaam maa janchhu", "म काममा जान्छु"],
-    ["I study in the evening", "Ma saanjha maa padhchhu", "म साँझमा पढ्छु"],
+    ["I wake up at 6", "Ma 6 baje uthchhu", "म छ बजे उठ्छु"],
+    ["I brush my teeth", "Ma mero daat majhchhu", "म मेरो दाँत माझ्छु"],
+    ["I eat food", "Ma khaanaa khaanchhu", "म खाना खान्छु"],
+    ["I go to work", "Ma kaam maa jaanchhu", "म काममा जान्छु"],
+    ["I study in the evening", "Ma beluka padhchhu", "म बेलुका पढ्छु"],
     ["I cook food", "Ma khana pakaunchhu", "म खाना पकाउँछु"],
     ["I bathe", "Ma nuhanchhu", "म नुहाउँछु"],
-    ["I sleep at 10", "Ma 10 baje sutchhu", "म १० बजे सुत्छु"],
+    ["I sleep at 10", "Ma 10 baje sutchhu", "म दस बजे सुत्छु"],
     ["I relax at home", "Ma ghar maa aaram garchhu", "म घरमा आराम गर्छु"],
-    ["I read books", "Ma kitaab padchhu", "म किताब पढ्छु"]
+    ["I read books", "Ma kitaabharu padchhu", "म किताबहरू पढ्छु"]
   ],
   food: [
     ["I'm hungry", "Malai bhok laagyo", "मलाई भोक लाग्यो"],
@@ -53,21 +53,22 @@ const data = {
     ["Where is the bus station?", "Bus station kaha chha?", "बस स्टेशन कहाँ छ?"],
     ["How much is the ticket?", "Ticket kati ko ho?", "टिकट कतिको हो?"],
     ["I need a taxi", "Malai taxi chahinchha", "मलाई ट्याक्सी चाहिन्छ"],
-    ["I want to go to...", "Ma ... jaanchhu", "म ... जान्छु"],
+    ["I want to go to...", "Ma ... jaana chaahanchhu", "म ... जान चाहन्छु"],
     ["Is it far?", "Yo taadha chha?", "यो टाढा छ?"],
     ["Please stop here", "Kripaya yahaa roknu hos", "कृपया यहाँ रोक्नुहोस्"],
     ["How long will it take?", "Kati samaya lagchha?", "कति समय लाग्छ?"],
     ["I am lost", "Ma haraye", "म हराएँ"],
     ["Can you help me?", "Tapaai malai madat garna saknuhunchha?", "तपाईं मलाई मद्दत गर्न सक्नुहुन्छ?"],
     ["I didn’t understand", "Maile bujhina", "मैले बुझिन"]
+    ["I understood", "Maile bujhe", "मैले बुझें"]
   ],
   shopping: [
     ["How much is this?", "Yesko kati parchha?", "यसको कति पर्छ?"],
-    ["It's too expensive", "Yo dherai mahango bhayo", "यो धेरै महँगो भयो"],
+    ["It's too expensive", "Yo dherai mahango chha", "यो धेरै महँगो छ"],
     ["Lower the price", "Mulya ghataunus", "मूल्य घटाउनुहोस्"],
     ["I will take it", "Ma yo linchhu", "म यो लिन्छु"],
     ["I'm just looking", "Ma herdaimaatra chhu", "म हेर्दैमात्र छु"],
-    ["Do you have another color?", "Arko rang maa chha?", "अर्को रङमा छ?"],
+    ["Do you have another color?", "Ke tapaaisanga arko rang chha?", "के तपाईंसँग अर्को रंग छ?"],
     ["Where can I pay?", "Ma kaha tirna sakchhu?", "म कहाँ तिर्न सक्छु?"]
   ],
   numbers: [
@@ -95,14 +96,14 @@ const data = {
     ["Son", "Chhora", "छोरा"],
     ["Daughter", "Chhori", "छोरी"],
     // --- New Phrases ---
-    ["This is my father.", "Yo mero buba hunuhunchha.", "यो मेरो बुबा हुनुहुन्छ।"],
+    ["This is my father.", "Yo mero buva hunuhunchha.", "यो मेरो बुवा हुनुहुन्छ।"],
     ["This is my mother.", "Yo mero aama hunuhunchha.", "यो मेरो आमा हुनुहुन्छ।"],
-    ["I have one brother.", "Mero euta bhaai chha.", "मेरो एउटा भाइ छ।"],
+    ["I have one brother.", "Mero ekjana bhaai chha.", "मेरो एकजना भाइ छ।"],
     ["I have two sisters.", "Mero dui jana didi/bahini chhan.", "मेरो दुई जना दिदी/बहिनी छन्।"],
-    ["Do you have siblings?", "Tapainko daaju-bhaai, didi-bahini hunuhunchha?", "तपाईंको दाजु-भाइ, दिदी-बहिनी हुनुहुन्छ?"],
+    ["Do you have siblings?", "Tapainko daaju-bhaai, didi-bahini chhan?", "तपाईंको दाजु-भाइ, दिदी-बहिनी छन्?"],
     ["I live with my family.", "Ma mero pariwaar sanga baschhu.", "म मेरो परिवारसँग बस्छु।"],
-    ["My family is small.", "Mero pariwaar sano chha.", "मेरो परिवार सानो छ।"],
-    ["What is your father's name?", "Tapainko buba ko naam ke ho?", "तपाईंको बुबाको नाम के हो?"],
+    ["My family is small.", "Mero pariwaar saano chha.", "मेरो परिवार सानो छ।"],
+    ["What is your father's name?", "Tapainko buva ko naam ke ho?", "तपाईंको बुवाको नाम के हो?"],
     ["My mother's name is...", "Mero aama ko naam ... ho.", "मेरी आमाको नाम ... हो।"]
   ],
 
@@ -110,7 +111,7 @@ const data = {
     ["I feel sick", "Malai sancho chhaina", "मलाई सन्चो छैन"],
     ["I need a doctor", "Malai doctor chahiyo", "मलाई डाक्टर चाहियो"],
     ["Where is the hospital?", "Aspatal kaha chha?", "अस्पताल कहाँ छ?"],
-    ["Help!", "Guhaar!", "गुहार!"],
+    ["Help!", "Madat garnus!", "मदत गर्नुस!"],
     ["Call the police", "Prahari lai bolaunus", "प्रहरीलाई बोलाउनुस्"],
     ["It hurts here", "Yaha dukchha", "यहाँ दुख्छ"],
     ["I have a headache", "Mero tauko dukhyo", "मेरो टाउको दुख्यो"]
