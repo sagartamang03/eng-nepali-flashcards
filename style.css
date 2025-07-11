@@ -140,3 +140,11 @@ h1 {
     font-size: 2em;
   }
 }
+
+.topics button.grammar-topic {
+    background: #007bff; /* A nice blue color */
+}
+
+.topics button.grammar-topic:hover {
+    background: #0056b3; /* A darker blue on hover */
+}
