@@ -1,10 +1,8 @@
 const data = {
   greetings: [
     ["Hello", "Namaste", "नमस्ते"],
-    ["Good morning", "Shubha prabhat", "शुभ प्रभात"],
-    ["Good evening", "Shubha saanjh", "शुभ साँझ"],
     ["How are you?", "Tapaai kasto hunuhunchha?", "तपाईं कस्तो हुनुहुन्छ?"],
-    ["I'm fine", "Ma sanchai chhu", "म सन्चै छु"],
+    ["I am fine", "Ma sanchai chhu", "म सन्चै छु"],
     ["Nice to meet you", "Tapaailaai bhetera khushi lagyo", "तपाईंलाई भेटेर खुशी लाग्यो"],
     ["Goodbye", "Albida / Namaste", "अल्विदा / नमस्ते"],
     ["See you soon", "Chittai bhetaulaa", "छिट्टै भेटौंला"],
@@ -19,22 +17,23 @@ const data = {
     ["I am from...", "Ma ... baata ho", "म ... बाट हो"],
     ["How old are you?", "Tapain kati barsa hunu bhayo?", "तपाईं कति वर्ष हुनुभयो?"],
     ["I am ... years old", "Ma ... barsa bhae", "म ... वर्ष भएँ"],
-    ["I am a student", "Ma ek chhatra ho", "म एक छात्र हुँ"],
+    ["I am a student", "Ma bidyarthi ho", "म विद्यार्थी हुँ"],
     ["What work do you do?", "Tapaai ke kaam garnuhunchha?", "तपाईं के काम गर्नुहुन्छ?"],
     ["I am ...", "Ma ... ho", "म ... हुँ"],
     ["This is my friend", "Yo mero saathi ho", "यो मेरो साथी हो"],
+    ["Where do you live?", "tapaai kahaa basnuhunchha?", "तपाईं कहाँ बस्नुहुन्छ?"]
     ["I live in...", "Ma ... maa baschhu", "म ... मा बस्छु"]
   ],
   routine: [
-    ["I wake up at 6", "Ma 6 baje uthchhu", "म छ बजे उठ्छु"],
+    ["I wake up at 6", "Ma chha baje uthchhu", "म छ बजे उठ्छु"],
     ["I brush my teeth", "Ma mero daat majhchhu", "म मेरो दाँत माझ्छु"],
     ["I eat food", "Ma khaanaa khaanchhu", "म खाना खान्छु"],
     ["I go to work", "Ma kaam maa jaanchhu", "म काममा जान्छु"],
     ["I study in the evening", "Ma beluka padhchhu", "म बेलुका पढ्छु"],
-    ["I cook food", "Ma khana pakaunchhu", "म खाना पकाउँछु"],
+    ["I make food", "Ma khana banaauchhu", "म खाना बनाउँछु"],
     ["I bathe", "Ma nuhanchhu", "म नुहाउँछु"],
     ["I sleep at 10", "Ma 10 baje sutchhu", "म दस बजे सुत्छु"],
-    ["I relax at home", "Ma ghar maa aaram garchhu", "म घरमा आराम गर्छु"],
+    ["I relax", "Ma aaram garchhu", "म घरमा आराम गर्छु"],
     ["I read books", "Ma kitaabharu padchhu", "म किताबहरू पढ्छु"]
   ],
   food: [
