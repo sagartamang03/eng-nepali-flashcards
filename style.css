@@ -148,3 +148,11 @@ h1 {
 .topics button.grammar-topic:hover {
     background: #0056b3; /* A darker blue on hover */
 }
+
+.topics button.other-topic {
+    background: #6c7ae0; /* Cool slate blue */
+}
+
+.topics button.other-topic:hover {
+    background: #5563c1; /* Darker on hover */
+}
