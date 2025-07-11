@@ -303,7 +303,114 @@ technology: [
   ["What will you eat?", "Tapai ke khaanuhunechha?", "तपाईं के खानुहुनेछ?"],
   ["What will she sing?", "Uni ke gaaunuhunechha?", "उनी के गाउनुहुनेछ?"],
   ["What will they play?", "Uniharu ke khelnuhunechha?", "उनीहरू के खेल्नुहुनेछ?"]
- ]
+ ],
+
+  pastContinuous: [
+    ["I was eating rice.", "Ma bhaat khaँdai thiyeँ.", "म भात खाँदै थिएँ।"],
+    ["She was singing a song.", "Uuni geet gaaudai thiyin.", "उनी गीत गाउँदै थिइन्।"],
+    ["They were playing football.", "Uनीहरू football kheल्dai thiye.", "उनीहरू फुटबल खेल्दै थिए।"],
+    ["I was not eating rice.", "Ma bhaat khaँdai thiyinaँ.", "म भात खाँदै थिइनँ।"],
+    ["She was not singing a song.", "Uuni geet gaaudai thiyenan.", "उनी गीत गाउँदै थिइनन्।"],
+    ["They were not playing football.", "Uनीहरू football kheल्dai thiyenan.", "उनीहरू फुटबल खेल्दै थिएनन्।"],
+    ["Were you eating rice?", "Ke tapai bhaat khaँdai hunuhunthyo?", "के तपाईं भात खाँदै हुनुहुन्थ्यो?"],
+    ["Was she singing a song?", "Ke uuni geet gaaudai hunuhunthyo?", "के उनी गीत गाउँदै हुनुहुन्थ्यो?"],
+    ["Were they playing football?", "Ke uनीहरू football kheल्dai hunuhunthyo?", "के उनीहरू फुटबल खेल्दै हुनुहुन्थ्यो?"],
+    ["What were you eating?", "Tapai ke khaँdai hunuhunthyo?", "तपाईं के खाँदै हुनुहुन्थ्यो?"],
+    ["What was she singing?", "Uuni ke gaaudai hunuhunthyo?", "उनी के गाउँदै हुनुहुन्थ्यो?"],
+    ["What were they playing?", "Uनीहरू ke kheल्dai hunuhunthyo?", "उनीहरू के खेल्दै हुनुहुन्थ्यो?"]
+  ], // <-- COMMA HERE
+
+
+wantSentences: [
+  // Affirmative Sentences
+  ["I want tea.", "Malai chiya chaahinchha.", "मलाई चिया चाहिन्छ।"],
+  ["She wants to dance.", "Uni naachna chaahanchhin.", "उनी नाच्न चाहन्छिन्"],
+  ["They want to go home.", "Uniharu ghar jaana chaahanchhan.", "उनीहरू घर जान चाहन्छन्।"],
+
+  // Negative Sentences
+  ["I don't want food.", "Malai khaana chahindaina.", "मलाई खाना चाहिँदैन।"],
+  ["He doesn't want to sleep.", "U sutna chaahdaina.", "ऊ सुत्न चाहँदैन।"],
+  ["They don't want to study.", "Uniharu padhna chaahadainan.", "उनीहरू पढ्न चाहँदैनन्।"],
+
+  // Yes/No Questions
+  ["Do you want coffee?", "Tapaailai coffee chaahinchha?", "तपाईलाई coffee चाहिन्छ?"],
+  ["Does she want to come?", "Ke uni aauna chaahanchhin?", "के उनी आउन चाहन्छिन्?"],
+  ["Do they want water?", "Ke uniharulaai paani chaahinchha?", "के उनीहरूलाई पानी चाहिन्छ?"],
+
+  // Wh- Questions
+  ["What do you want?", "Tapaailai ke chaahinchha?", "तपाईलाई के चाहिन्छ?"],
+  ["Why do you want to go?", "Tapaai kina jaana chaahanuhunchha?", "तपाई किन जान चाहनुहुन्छ?"],
+  ["Who do you want to meet?", "Tapaai kaslai bhetna chaahanu hunchha?", "तपाई कसलाई भेट्न चाहनुहुन्छ?"]
+],
+
+haveSentences: [
+  // Affirmative
+  ["I have a book.", "Ma sanga ek kitaab chha.", "मसँग एक किताब छ।"],
+  ["She has a pen.", "Uni sanga ek kalam chha.", "उनीसँग एक कलम छ।"],
+  ["They have a house.", "Uniharuko ghar chha.", "उनहरूको घर छ।"],
+
+  // Negative
+  ["I don't have a car.", "Ma sanga gaadi chhaina.", "मसँग गाडी छैन।"],
+  ["He doesn't have time.", "U sanga samaya chhaina.", "उसँग समय छैन।"],
+  ["They don't have money.", "Uniharu sanga paisa chhaina.", "उनीहरूसँग पैसा छैन।"],
+
+  // Yes/No Questions
+  ["Do you have a phone?", "Tapaai sanga phone chha?", "तपाईसँग फोन छ?"],
+  ["Does she have a job?", "Ke uni sanga sanga kaam chha?", "के उनीसँग काम छ?"],
+  ["Do they have tickets?", "Ke uniharusanga ticket chha?", "के उनीहरूसँग टिकट छ?"],
+
+  // Wh- Questions
+  ["What do you have?", "Tapaai sanga ke chha?", "तपाईसँग के छ?"],
+  ["Who has the key?", "Ko sanga chaabi chha?", "चाबी कोसँग छ?"],
+  ["Why do you have this?", "Tapaai sanga yo kina chha?", "तपाईसँग यो किन छ?"]
+],
+
+
+  likeSentences: [
+    ["I like tea.", "Malai chiya manparchha.", "मलाई चिया मनपर्छ।"],
+    ["She likes to read books.", "Uunilai kitaab padhna manparchha.", "उनलाई किताब पढ्न मनपर्छ।"],
+    ["They don't like movies.", "Uनीहरूलाई film manpardaina.", "उनीहरूलाई फिल्म मनपर्दैन।"],
+    ["Do you like spicy food?", "Ke tapaailai piro khana manparchha?", "के तपाईंलाई पिरो खाना मनपर्छ?"],
+    ["What do you like?", "Tapaailai ke manparchha.", "तपाईंलाई के मनपर्छ?"]
+  ], // <-- COMMA HERE
+
+  needSentences: [
+    // I noticed a "" in your code, which is not valid JavaScript. I have removed it.
+    ["I need water.", "Malai paani chahinchha.", "मलाई पानी चाहिन्छ।"],
+    ["She needs help.", "Uunilai sahayog chahinchha.", "उनलाई सहयोग चाहिन्छ।"],
+    ["They need a taxi.", "Uनीहरूलाई taxi chahinchha.", "उनीहरूलाई ट्याक्सी चाहिन्छ।"],
+    ["I don't need anything.", "Malai kehi chahidaaina.", "मलाई केही चाहिँदैन।"],
+    ["Do you need anything?", "Tapaailai kehi chahinchha?", "तपाईंलाई केही चाहिन्छ?"],
+    ["What do you need?", "Tapaailai ke chahinchha?", "तपाईंलाई के चाहिन्छ?"]
+  ], // <-- COMMA HERE
+
+  canSentences: [
+    ["I can speak Nepali.", "Ma Nepali bolna sakchhu.", "म नेपाली बोल्न सक्छु।"],
+    ["She can swim.", "Uuni paudina sakchin.", "उनी पौडिन सक्छिन्।"],
+    ["They can't come today.", "Uनीहरू aaja auna sakdainan.", "उनीहरू आज आउन सक्दैनन्।"],
+    ["Can you help me?", "Ke tapai malai madat garna saknuhunchha?", "के तपाईं मलाई मद्दत गर्न सक्नुहुन्छ?"],
+    ["Where can I pay?", "Ma kaha tirna sakchhu?", "म कहाँ तिर्न सक्छु?"],
+    ["What can you do?", "Tapai ke garna saknuhunchha?", "तपाईं के गर्न सक्नुहुन्छ?"]
+  ], // <-- COMMA HERE
+
+  shouldHaveTo: [
+    ["You should rest.", "Tapaile aaram garnuparchha.", "तपाईंले आराम गर्नुपर्छ।"],
+    ["I have to go.", "Ma jaanu parchha.", "म जानु पर्छ।"],
+    ["She needs to study.", "Uunle padhnu parchha.", "उनले पढ्नु पर्छ।"],
+    ["We have to work.", "Haamile kaam garnu parchha.", "हामीले काम गर्नु पर्छ।"],
+    ["You should not worry.", "Tapaile chinta garnu hudaina.", "तपाईंले चिन्ता गर्नु हुँदैन।"],
+    ["What should I do?", "Maile ke garnu parchha?", "मैले के गर्नु पर्छ?"]
+  ], // <-- COMMA HERE
+
+  commands: [
+    ["Come here.", "Yahaa aaunus.", "यहाँ आउनुस्।"],
+    ["Go there.", "Tyahaa jaanus.", "त्यहाँ जानुस्।"],
+    ["Listen carefully.", "Dhyaan diyera sunnus.", "ध्यान दिएर सुन्नुस्।"],
+    ["Please stop here.", "Kripaya yahaa roknu hos.", "कृपया यहाँ रोक्नुहोस्।"],
+    ["Speak slowly.", "Bistaarai bolnus.", "बिस्तारै बोल्नुस्।"],
+    ["Give me that.", "Malai tyo dinus.", "मलाई त्यो दिनुस्।"],
+    ["Don't do that.", "Tyo nagarnus.", "त्यो नगर्नुस्।"]
+  ]
 
 };
 
