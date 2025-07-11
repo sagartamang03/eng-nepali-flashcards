@@ -206,7 +206,93 @@ technology: [
     ["I want to be a doctor", "Ma doctor banna chaahanchhu", "म डाक्टर बन्न चाहन्छु"],
     ["I want to help others", "Ma arulai madat garna chaahanchhu", "म अरुलाई मद्दत गर्न चाहन्छु"],
     ["I want to start a business", "Ma ek byapaar suru garna chaahanchhu", "म एक व्यापार सुरु गर्न चाहन्छु"]
-  ]
+  ],
+
+  simplePresent: [
+  ["I eat rice.", "Ma bhaat khanchu.", "म भात खान्छु।"],
+  ["She sings song.", "Uni geet gaauँchin.", "उनी गीत गाउँछिन्।"],
+  ["They play football.", "Uniharu football khechhan.", "उनीहरू फुटबल खेल्छन्।"],
+  ["I do not eat rice.", "Ma bhaat khaँdina.", "म भात खाँदिनँ।"],
+  ["She does not sing a song.", "Uni geet gaaudinan.", "उनी गीत गाउँदिनन्।"],
+  ["They do not play football.", "Uniharu football kheldainan.", "उनीहरू फुटबल खेल्दैनन्।"],
+  ["Do you eat rice?", "Ke tapai bhaat khaunuhuncha?", "के तपाईं भात खानुहुन्छ?"],
+  ["Does she sing a song?", "Ke uuni geet gaaun huncha?", "के उनी गीत गाउनुहुन्छ?"],
+  ["Do they play football?", "Ke Uniharu football khelnuhuncha?", "के उनीहरू फुटबल खेल्नुहुन्छ?"],
+  ["What do you eat?", "Tapai ke khaanuhuncha?", "तपाईं के खानुहुन्छ?"],
+  ["What does she sing?", "Uuni ke gaaun huncha?", "उनी के गाउनुहुन्छ?"],
+  ["What do they play?", "Uniharu ke khelnuhuncha?", "उनीहरू के खेल्नुहुन्छ?"]
+ ],
+ presentContinuous: [
+  ["I am eating rice.", "Ma bhaat khaँdai chhu.", "म भात खाँदै छु।"],
+  ["She is singing a song.", "Uni geet gaaudai chhin.", "उनी गीत गाउँदै छिन्।"],
+  ["They are playing football.", "Uniharu football kheldai chhan.", "उनीहरू फुटबल खेल्दै छन्।"],
+  ["I am not eating rice.", "Ma bhaat khaँdai chhaina.", "म भात खाँदै छैन।"],
+  ["She is not singing a song.", "Uni geet gaaudai chhainan.", "उनी गीत गाउँदै छैनन्।"],
+  ["They are not playing football.", "Uniharu football kheल्dai chhainan.", "उनीहरू फुटबल खेल्दै छैनन्।"],
+  ["Are you eating rice?", "Ke tapai bhaat khaँdai hunuhuncha?", "के तपाईं भात खाँदै हुनुहुन्छ?"],
+  ["Is she singing a song?", "Ke uuni geet gaaudai hunuhuncha?", "के उनी गीत गाउँदै हुनुहुन्छ?"],
+  ["Are they playing football?", "Ke Uniharu football kheल्dai hunuhuncha?", "के उनीहरू फुटबल खेल्दै हुनुहुन्छ?"],
+  ["What are you eating?", "Tapai ke khaँdai hunuhuncha?", "तपाईं के खाँदै हुनुहुन्छ?"],
+  ["What is she singing?", "Uni ke gaaudai hunuhuncha?", "उनी के गाउँदै हुनुहुन्छ?"],
+  ["What are they playing?", "Uniharu ke kheldai hunuhuncha?", "उनीहरू के खेल्दै हुनुहुन्छ?"]
+ ],
+ simplePast: [
+  ["I ate rice.", "Maile bhaat khaएँ.", "मैले भात खाएँ।"],
+  ["She sang a song.", "Uunle geet gaain.", "उनले गीत गाइन्।"],
+  ["They played football.", "Uniharule football khele.", "उनीहरूले फुटबल खेले।"],
+  ["I did not eat rice.", "Maile bhaat khaaina.", "मैले भात खाइनँ।"],
+  ["She did not sing a song.", "Uunle geet gaainnan.", "उनले गीत गाएनन्।"],
+  ["They did not play football.", "Uniharule football khelenan.", "उनीहरूले फुटबल खेलेनन्।"],
+  ["Did you eat rice?", "Ke tapai le bhaat khaanubhayo?", "के तपाईंले भात खानुभयो?"],
+  ["Did she sing a song?", "Ke uunle geet gaaunubhayo?", "के उनले गीत गाउनुभयो?"],
+  ["Did they play football?", "Ke Uniharule football khelnubhayo?", "के उनीहरूले फुटबल खेल्नुभयो?"],
+  ["What did you eat?", "Tapai le ke khaanubhayo?", "तपाईंले के खानुभयो?"],
+  ["What did she sing?", "Unle ke gaaunubhayo?", "उनले के गाउनुभयो?"],
+  ["What did they play?", "Uniharule ke khelnubhayo?", "उनीहरूले के खेल्नुभयो?"]
+ ],
+ presentPerfect: [
+  ["I have eaten rice.", "Maile bhaat khaeko chhu.", "मैले भात खाएको छु।"],
+  ["She has sung a song.", "Uunle geet gaaeko chhin.", "उनले गीत गाएकी छिन्।"],
+  ["They have played football.", "Uniharule football kheleka chhan.", "उनीहरूले फुटबल खेलेका छन्।"],
+  ["I have not eaten rice.", "Maile bhaat khaeko chhaina.", "मैले भात खाएको छैन।"],
+  ["She has not sung a song.", "Uunle geet gaaeko chhainan.", "उनले गीत गाएकी छैनन्।"],
+  ["They have not played football.", "Uniharule football kheleka chhainan.", "उनीहरूले फुटबल खेलेका छैनन्।"],
+  ["Have you eaten rice?", "Ke tapai le bhaat khaanubhaeko chha?", "के तपाईंले भात खानुभएको छ?"],
+  ["Has she sung a song?", "Ke uunle geet gaaunubhaeko chha?", "के उनले गीत गाउनुभएको छ?"],
+  ["Have they played football?", "Ke Uniharule football khelnubhaeko chha?", "के उनीहरूले फुटबल खेल्नुभएको छ?"],
+  ["What have you eaten?", "Tapai le ke khaanubhaeko chha?", "तपाईंले के खानुभएको छ?"],
+  ["What has she sung?", "Uunle ke gaaunubhaeko chha?", "उनले के गाउनुभएको छ?"],
+  ["What have they played?", "Uniharule ke khelnubhaeko chha?", "उनीहरूले के खेल्नुभएको छ?"]
+ ],
+ pastPerfect: [
+  ["I had eaten rice.", "Maile bhaat khaeko thiyeँ.", "मैले भात खाएको थिएँ।"],
+  ["She had sung a song.", "Unle geet gaaeko thiyin.", "उनले गीत गाएकी थिइन्।"],
+  ["They had played football.", "Uniharule football kheleka thiye.", "उनीहरूले फुटबल खेलेका थिए।"],
+  ["I had not eaten rice.", "Maile bhaat khaeko thiyinaँ.", "मैले भात खाएको थिइनँ।"],
+  ["She had not sung a song.", "Unle geet gaaeko thiyenan.", "उनले गीत गाएकी थिइनन्।"],
+  ["They had not played football.", "Uniharule football kheleka thiyenan.", "उनीहरूले फुटबल खेलेका थिएनन्।"],
+  ["Had you eaten rice?", "Ke tapai le bhaat khaanubhaeko thiyo?", "के तपाईंले भात खानुभएको थियो?"],
+  ["Had she sung a song?", "Ke uunle geet gaaunubhaeko thiyo?", "के उनले गीत गाउनुभएको थियो?"],
+  ["Had they played football?", "Ke Uniharule football khelnubhaeko thiyo?", "के उनीहरूले फुटबल खेल्नुभएको थियो?"],
+  ["What had you eaten?", "Tapaaile ke khaanubhaeko thiyo?", "तपाईंले के खानुभएको थियो?"],
+  ["What had she sung?", "Unle ke gaaunubhaeko thiyo?", "उनले के गाउनुभएको थियो?"],
+  ["What had they played?", "Uniharule ke khelnubhaeko thiyo?", "उनीहरूले के खेल्नुभएको थियो?"]
+ ],
+ simpleFuture: [
+  ["I will eat rice.", "Ma bhaat khaanechhu.", "म भात खानेछु।"],
+  ["She will sing a song.", "Uni geet gaaunechhin.", "उनी गीत गाउनेछिन्।"],
+  ["They will play football.", "Uniharu football khelnechhan.", "उनीहरू फुटबल खेल्नेछन्।"],
+  ["I will not eat rice.", "Ma bhaat khaanechhaina.", "म भात खानेछैन।"],
+  ["She will not sing a song.", "Uni geet gaaunechhainan.", "उनी गीत गाउनेछैनन्।"],
+  ["They will not play football.", "Uniharu football khelnechhainan.", "उनीहरू फुटबल खेल्नेछैनन्।"],
+  ["Will you eat rice?", "Ke tapai bhaat khaanuhunechha?", "के तपाईं भात खानुहुनेछ?"],
+  ["Will she sing a song?", "Ke uni geet gaaunuhunechha?", "के उनी गीत गाउनुहुनेछ?"],
+  ["Will they play football?", "Ke Uniharu football khelnuhunechha?", "के उनीहरू फुटबल खेल्नुहुनेछ?"],
+  ["What will you eat?", "Tapai ke khaanuhunechha?", "तपाईं के खानुहुनेछ?"],
+  ["What will she sing?", "Uni ke gaaunuhunechha?", "उनी के गाउनुहुनेछ?"],
+  ["What will they play?", "Uniharu ke khelnuhunechha?", "उनीहरू के खेल्नुहुनेछ?"]
+ ]
+
 };
 
 function showTopic(topic) {
