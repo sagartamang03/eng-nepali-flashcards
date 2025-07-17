@@ -266,8 +266,22 @@ haveSentences: [
     ["To write", "Lekhnu", "लेख्नु"],
     ["To speak", "Bolnu", "बोल्नु"],
     ["To walk", "Hidnu", "हिँड्नु"],
-    ["To live", "Basnu", "बस्नु"]
-
+    ["To live", "Basnu", "बस्नु"],
+    ["To see", "Hernu", "हेर्नु"],
+    ["To read", "Padhnu", "पढ्नु"],
+    ["To give", "Dinu", "दिनु"],
+    ["To take", "Linu", "लिनु"],
+    ["To drink", "Piũnu", "पिउनु"],
+    ["To do", "Garnu", "गर्नु"],
+    ["To buy", "Kinnu", "किन्नु"],
+    ["To sell", "Bechnu", "बेच्नु"],
+    ["To hear/listen", "Sunnu", "सुन्‍नु"],
+    ["To play", "Khelnu", "खेल्नु"],
+    ["To wash", "Dhunu", "धुनु"],
+    ["To open", "Kholnu", "खोल्नु"],
+    ["To close", "Band garnu", "बन्द गर्नु"],
+    ["To call", "Bolaaunu", "बोलाउनु"],
+    ["To meet", "Bheṭnu", "भेट्नु"]
   ],
 
   nouns: [
@@ -277,7 +291,20 @@ haveSentences: [
     ["Water", "Paani", "पानी"],
     ["Food", "Khaana", "खाना"],
     ["Chair", "Mech", "मेच"],
-    ["Teacher", "Shikshak", "शिक्षक"]
+    ["Teacher", "Shikshak", "शिक्षक"],
+    ["Student", "Chhaatr", "छात्र"],
+    ["School", "Vidhyalaya", "विद्यालय"],
+    ["Table", "Tebul", "टेबल"],
+    ["Bed", "Ochaanaa", "ओछ्यान"],
+    ["Clothes", "Kapadaa", "कपडा"],
+    ["Door", "Dhoka", "ढोका"],
+    ["Window", "Jhyal", "झ्याल"],
+    ["Bag", "Jhola", "झोला"],
+    ["Phone", "Mobile", "मोबाइल"],
+    ["Father", "Buwaa", "बुबा"],
+    ["Mother", "Aama", "आमा"],
+    ["Sun", "Surya", "सूर्य"],
+    ["Moon", "Chandramā", "चन्द्रमा"]
   ],
 
   adjectives: [
@@ -287,7 +314,20 @@ haveSentences: [
     ["Hot", "Garmi", "गर्मी"],
     ["Cold", "Chiso", "चिसो"],
     ["Happy", "Khushi", "खुसी"],
-    ["Fast", "Chito", "छिटो"]
+    ["Fast", "Chito", "छिटो"],
+    ["Slow", "Dhilo", "ढिलो"],
+    ["Good", "Ramro", "राम्र‍ो"],
+    ["Bad", "Naramro", "नराम्र‍ो"],
+    ["Tall", "Lamo", "लामो"],
+    ["Short", "Hocho", "होचो"],
+    ["Clean", "Safa", "सफा"],
+    ["Dirty", "Mailo", "मैलो"],
+    ["New", "Nayā̃", "नयाँ"],
+    ["Old", "Puraano", "पुरानो"],
+    ["Sweet", "Mitho", "मिठो"],
+    ["Bitter", "Tito", "तिक्त"],
+    ["Easy", "Sajilo", "सजिलो"],
+    ["Difficult", "Gaaro", "गाह्रो"]
   ],
 
   adverbs: [
@@ -297,7 +337,19 @@ haveSentences: [
     ["Never", "Kahile pani hoina", "कहिले पनि होइन"],
     ["Today", "Aaja", "आज"],
     ["Yesterday", "Hijo", "हिजो"],
-    ["Tomorrow", "Bholi", "भोलि"]
+    ["Tomorrow", "Bholi", "भोलि"],
+    ["Now", "Ahile", "अहिले"],
+    ["Then", "Tyaspachi", "त्यसपछि"],
+    ["Often", "Dherai jaso", "धेरैजसो"],
+    ["Sometimes", "Kahile kahĩ", "कहिले कहिँ"],
+    ["Early", "Chhito", "छिटो"],
+    ["Late", "Dhilo", "ढिलो"],
+    ["Here", "Yahã̃", "यहाँ"],
+    ["There", "Tyahã̃", "त्यहाँ"],
+    ["Everyday", "Harek din", "हरेक दिन"],
+    ["Tonight", "Aaja raat", "आज रात"],
+    ["This morning", "Aaja bihani", "आज बिहान"],
+    ["Soon", "Chhito nai", "छिट्टै नै"]
   ],
 
   prepositions: [
@@ -307,27 +359,59 @@ haveSentences: [
     ["Out", "Bahir", "बाहिर"],
     ["Beside", "Chheuma", "छेउमा"],
     ["Between", "Majhmaa", "मझमा"],
-    ["Near", "Najikai", "नजिकै"]
+    ["Near", "Najikai", "नजिकै"],
+    ["Far", "Tadha", "टाढा"],
+    ["In front of", "Aghi", "अघि"],
+    ["Behind", "Pachi", "पछि"],
+    ["Above", "Mathi", "माथि"],
+    ["Below", "Tala", "तल"],
+    ["Left", "Baayã", "बायाँ"],
+    ["Right", "Dahine", "दायाँ"],
+    ["Inside", "Bhitra", "भित्र"],
+    ["Outside", "Bahir", "बाहिर"],
+    ["Around", "Varipari", "वरिपरि"],
+    ["Across", "Pari", "पारि"]
   ],
 
   conjunctions: [
-    ["And", "Ra", "र"],
-    ["But", "Tara", "तर"],
-    ["Because", "Kinabhane", "किनभने"],
-    ["If", "Yadi", "यदि"],
-    ["Although", "Yadi pani", "यद्यपि"],
-    ["So", "Tesaile", "त्यसैले"],
-    ["Or", "Wa", "वा"]
+  ["And", "Ra", "र"],
+  ["But", "Tara", "तर"],
+  ["Because", "Kinabhane", "किनभने"],
+  ["If", "Yadi", "यदि"],
+  ["Although", "Yadi pani", "यद्यपि"],
+  ["So", "Tesaile", "त्यसैले"],
+  ["Or", "Wa", "वा"],
+  ["Therefore", "Ata", "अत:‌"],
+  ["That", "Ki", "कि"],
+  ["Even though", "Jasto bhaye pani", "जस्तो भए पनि"]
   ],
 
   questionWords: [
-    ["What", "Ke", "के"],
-    ["Where", "Kaha", "कहाँ"],
-    ["When", "Kahile", "कहिले"],
-    ["Who", "Ko", "को"],
-    ["Why", "Kin?", "किन?"],
-    ["How", "Kasari", "कसरी"],
-    ["Which", "Kun", "कुन"]
+  ["What", "Ke", "के"],
+  ["Where", "Kaha", "कहाँ"],
+  ["When", "Kahile", "कहिले"],
+  ["Who", "Ko", "को"],
+  ["Why", "Kin?", "किन?"],
+  ["How", "Kasari", "कसरी"],
+  ["Which", "Kun", "कुन"],
+  ["Whose", "Kasko", "कसको"],
+  ["How many", "Kati", "कति"],
+  ["How much", "Kati", "कति"],
+  ["Whom", "Kasalai", "कसलाई"]
+  ["With whom", "Kosanga", "कोसँग"],
+  ["To whom", "Kasalai", "कसलाई"],
+  ["For whom", "Kasko lagi", "कसको लागि"],
+  ["About what", "Keko barema", "केको बारेमा"],
+  ["With what", "Kesãga", "केसँग"],
+  ["To where", "Kahã samma", "कहाँसम्म"],
+  ["From where", "Kahãbata", "कहाँबाट"],
+  ["How long", "Kati bela samma", "कति बेला सम्म"],
+  ["How far", "Kati taadha", "कति टाढा"],
+  ["Since when", "Kahile dekhi", "कहिले देखि"],
+  ["Until when", "Kahile samma", "कहिले सम्म"],
+  ["How many people", "Kati jana", "कति जना"],
+  ["What time", "Kati baje", "कति बजे"]
+  ["How often", "Kati choti", "कति पटक / कति चोटी"]
   ]
 
 };
