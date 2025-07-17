@@ -21,7 +21,7 @@ const data = {
     ["What work do you do?", "Tapaai ke kaam garnuhunchha?", "तपाईं के काम गर्नुहुन्छ?"],
     ["I am ...", "Ma ... ho", "म ... हुँ"],
     ["This is my friend", "Yo mero saathi ho", "यो मेरो साथी हो"],
-    ["Where do you live?", "tapaai kahaa basnuhunchha?", "तपाईं कहाँ बस्नुहुन्छ?"]
+    ["Where do you live?", "tapaai kahaa basnuhunchha?", "तपाईं कहाँ बस्नुहुन्छ?"],
     ["I live in...", "Ma ... maa baschhu", "म ... मा बस्छु"]
   ],
   routine: [
@@ -58,7 +58,7 @@ const data = {
     ["How long will it take?", "Kati samaya lagchha?", "कति समय लाग्छ?"],
     ["I am lost", "Ma haraye", "म हराएँ"],
     ["Can you help me?", "Tapaai malai madat garna saknuhunchha?", "तपाईं मलाई मद्दत गर्न सक्नुहुन्छ?"],
-    ["I didn’t understand", "Maile bujhina", "मैले बुझिन"]
+    ["I didn’t understand", "Maile bujhina", "मैले बुझिन"],
     ["I understood", "Maile bujhe", "मैले बुझें"]
   ],
   shopping: [
