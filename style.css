@@ -5,7 +5,7 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Align to the top */
+  align-items: flex-start;
   min-height: 100vh;
   box-sizing: border-box;
 }
@@ -31,15 +31,15 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px; /* Use gap for spacing */
+  gap: 10px;
   margin-bottom: 30px;
 }
 
+/* Remove default green! Just basic structure */
 .topics button, .back-button {
-  margin: 5px; /* Reduced margin since gap is used */
+  margin: 5px;
   padding: 15px 25px;
   font-size: 17px;
-  background: #4CAF50; /* A pleasant green */
   color: white;
   border: none;
   border-radius: 8px;
@@ -48,25 +48,52 @@ h1 {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.topics button:hover, .back-button:hover {
-  background: #45a049;
+.topics button:hover,
+.back-button:hover {
   transform: translateY(-2px);
 }
 
-.back-button {
-  background: #6c757d; /* Grey for back button */
-  margin-bottom: 20px;
+/* === CATEGORY BUTTON STYLES === */
+
+/* 🟩 Basic Topics */
+.topics button.basic-topic {
+  background: #4CAF50;
+}
+.topics button.basic-topic:hover {
+  background: #45a049;
 }
 
+/* 🟧 Sentences with "**" verbs */
+.topics button.sentence-topic {
+  background: #ff9800;
+}
+.topics button.sentence-topic:hover {
+  background: #e68900;
+}
+
+/* 🔵 Parts of Speech */
+.topics button.grammar-topic {
+  background: #007bff;
+}
+.topics button.grammar-topic:hover {
+  background: #0056b3;
+}
+
+/* Back Button */
+.back-button {
+  background: #6c757d;
+  margin-bottom: 20px;
+}
 .back-button:hover {
   background: #5a6268;
 }
 
+/* Flashcards */
 .flashcards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  perspective: 1000px; /* For 3D flip effect */
+  perspective: 1000px;
 }
 
 .card {
@@ -95,7 +122,7 @@ h1 {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden; /* Hide back of card during flip */
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   display: flex;
   justify-content: center;
@@ -103,7 +130,7 @@ h1 {
   padding: 15px;
   box-sizing: border-box;
   border-radius: 10px;
-  background: white; /* Card background */
+  background: white;
 }
 
 .card-front strong {
@@ -113,46 +140,29 @@ h1 {
 
 .card-back {
   transform: rotateY(180deg);
-  background: #e9ecef; /* Slightly different background for back */
-  /* MODIFIED: Flex properties to stack text */
+  background: #e9ecef;
   flex-direction: column;
   gap: 10px;
 }
 
-/* --- NEW STYLES FOR CARD BACK --- */
 .devanagari-script {
-  font-size: 2em; /* Makes the Devanagari text larger */
-  color: #003366; /* A nice dark blue color */
+  font-size: 2em;
+  color: #003366;
 }
 
 .romanized-script {
   font-size: 1.1em;
   font-style: italic;
-  color: #555; /* A softer gray color */
+  color: #555;
 }
 
-/* Responsive adjustments */
+/* Responsive */
 @media (max-width: 600px) {
   .flashcards {
-    grid-template-columns: 1fr; /* Single column on small screens */
+    grid-template-columns: 1fr;
   }
+
   h1 {
     font-size: 2em;
   }
-}
-
-.topics button.grammar-topic {
-    background: #007bff; /* A nice blue color */
-}
-
-.topics button.grammar-topic:hover {
-    background: #0056b3; /* A darker blue on hover */
-}
-
-.topics button.other-topic {
-    background: #6c7ae0; /* Cool slate blue */
-}
-
-.topics button.other-topic:hover {
-    background: #5563c1; /* Darker on hover */
 }
