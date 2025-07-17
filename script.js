@@ -354,19 +354,19 @@ haveSentences: [
 
   prepositions: [
     ["On", "Mathi", "माथि"],
-    ["Under", "Muniko", "मुनि"],
+    ["Under", "Muni", "मुनि"],
     ["In", "Bhitra", "भित्र"],
-    ["Out", "Bahir", "बाहिर"],
+    ["Out", "Bahira", "बाहिर"],
     ["Beside", "Chheuma", "छेउमा"],
-    ["Between", "Majhmaa", "मझमा"],
+    ["Between", "Beechma", "बीचमा"],
     ["Near", "Najikai", "नजिकै"],
     ["Far", "Tadha", "टाढा"],
-    ["In front of", "Aghi", "अघि"],
-    ["Behind", "Pachi", "पछि"],
+    ["In front of", "Agaadi", "अगाडि"],
+    ["Behind", "Pachaadi", "पछाडि"],
     ["Above", "Mathi", "माथि"],
     ["Below", "Tala", "तल"],
-    ["Left", "Baayã", "बायाँ"],
-    ["Right", "Dahine", "दायाँ"],
+    ["Left", "Baayãa", "बायाँ"],
+    ["Right", "Daayaa", "दायाँ"],
     ["Inside", "Bhitra", "भित्र"],
     ["Outside", "Bahir", "बाहिर"],
     ["Around", "Varipari", "वरिपरि"],
@@ -374,16 +374,13 @@ haveSentences: [
   ],
 
   conjunctions: [
-  ["And", "Ra", "र"],
+  ["And", "Ra / Ani", "र / अनि"],
   ["But", "Tara", "तर"],
-  ["Because", "Kinabhane", "किनभने"],
+  ["Because", "Kinabhane / Kinaki", "किनभने / किनकि"],
   ["If", "Yadi", "यदि"],
-  ["Although", "Yadi pani", "यद्यपि"],
   ["So", "Tesaile", "त्यसैले"],
-  ["Or", "Wa", "वा"],
-  ["Therefore", "Ata", "अत:‌"],
+  ["Or", "Wa / athwaa / Ki", "वा / अथवा/ की "],
   ["That", "Ki", "कि"],
-  ["Even though", "Jasto bhaye pani", "जस्तो भए पनि"]
   ],
 
   questionWords: [
