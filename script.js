@@ -1,5 +1,5 @@
 const data = {
-  greetings: [
+   greetings: [
     ["Hello", "Namaste", "नमस्ते"],
     ["How are you?", "Tapaai kasto hunuhunchha?", "तपाईं कस्तो हुनुहुन्छ?"],
     ["I am fine", "Ma sanchai chhu", "म सन्चै छु"],
@@ -409,39 +409,134 @@ haveSentences: [
   ["How many people", "Kati jana", "कति जना"],
   ["What time", "Kati baje", "कति बजे"]
   ["How often", "Kati choti", "कति पटक / कति चोटी"]
-  ]
+  ],
+   devanagariScript: {
+    vowels: [
+      ["A", "a", "अ"], ["AA", "aa", "आ"], ["I", "i", "इ"], ["II", "ee", "ई"],
+      ["U", "u", "उ"], ["UU", "oo", "ऊ"], ["RI", "ri", "ऋ"], ["E", "e", "ए"],
+      ["AI", "ai", "ऐ"], ["O", "o", "ओ"], ["AU", "au", "औ"], ["An", "an", "अं"],
+      ["Ah", "ah", "अः"]
+    ],
+consonants: [
+  ["Ka", "ka", "क"], ["Kha", "kha", "ख"], ["Ga", "ga", "ग"], ["Gha", "gha", "घ"], ["Nga", "nga", "ङ"],
+  ["Cha", "cha", "च"], ["Chha", "chha", "छ"], ["Ja", "ja", "ज"], ["Jha", "jha", "झ"], ["Nya", "nya", "ञ"],
+  ["Ta", "ṭa", "ट"], ["Tha", "ṭha", "ठ"], ["Da", "ḍa", "ड"], ["Dha", "ḍha", "ढ"], ["Na", "ṇa", "ण"],
+  ["Ta", "ta", "त"], ["Tha", "tha", "थ"], ["Da", "da", "द"], ["Dha", "dha", "ध"], ["Na", "na", "न"],
+  ["Pa", "pa", "प"], ["Pha", "pha", "फ"], ["Ba", "ba", "ब"], ["Bha", "bha", "भ"], ["Ma", "ma", "म"],
+  ["Ya", "ya", "य"], ["Ra", "ra", "र"], ["La", "la", "ल"], ["Va", "va", "व"],
+  ["Sha", "sha", "श"], ["Sha (retroflex)", "ṣa", "ष"], ["Sa", "sa", "स"], ["Ha", "ha", "ह"],
+  ["Ksha", "kṣa", "क्ष"], ["Tra", "tra", "त्र"], ["Gya", "gya", "ज्ञ"]
+],
 
+    matras: [
+  ["aa", "aa", "ा"], ["i", "i", "ि"], ["ii", "ee", "ी"],
+  ["u", "u", "ु"], ["uu", "oo", "ू"], ["ri", "ri", "ृ"],
+  ["e", "e", "े"], ["ai", "ai", "ै"], ["o", "o", "ो"],
+  ["au", "au", "ौ"], ["anuswar", "an", "ं"], ["visarga", "ah", "ः"]
+],
+
+ simpleWords: [
+  ["Ram", "Ram", "राम"],
+  ["Pani", "Paani", "पानी"],
+  ["Kitaab", "Kitaab", "किताब"],
+  ["Ghar", "Ghar", "घर"],
+  ["Maa", "Maa", "माँ"],
+  ["Baccha", "Bacchaa", "बच्चा"],
+  ["Ped", "Ped", "पेड़"],
+  ["Kutta", "Kuttaa", "कुत्ता"],
+  ["Suraj", "Sooraj", "सूरज"],
+  ["Chand", "Chaand", "चाँद"],
+  ["Roti", "Roti", "रोटी"],
+  ["Doodh", "Doodh", "दूध"],
+  ["Pustak", "Pustak", "पुस्तक"],
+  ["Mez", "Mez", "मेज़"],
+  ["Kursi", "Kursi", "कुर्सी"]
+],
+
+    conjuncts: [
+      ["Kta", "kta", "क्त"], ["Tra", "tra", "त्र"], ["Gya", "gya", "ज्ञ"], ["Shra", "shra", "श्र"]
+    ]
+  }
 };
+let currentTopic = null;
+let currentSubtopic = null;
 
 function showTopic(topic) {
   const flashcardContainer = document.getElementById("flashcards");
   const topicSelection = document.getElementById("topic-selection");
   const backButton = document.getElementById("back-to-topics");
 
-  flashcardContainer.innerHTML = "";
-  topicSelection.style.display = "none";
-  backButton.style.display = "block";
+  currentTopic = topic;
+  currentSubtopic = null;
 
-  data[topic].forEach(([eng, roman, devanagari]) => {
+  flashcardContainer.innerHTML = "";
+  topicSelection.classList.add("hidden");
+  backButton.classList.remove("hidden");
+  backButton.innerText = "← Back to Topics";
+
+  if (typeof data[topic] === "object" && !Array.isArray(data[topic])) {
+    showSubtopics(topic);
+    return;
+  }
+
+  renderFlashcards(data[topic]);
+}
+
+function showSubtopics(topic) {
+  const container = document.getElementById("flashcards");
+  const topicSelection = document.getElementById("topic-selection");
+  const backButton = document.getElementById("back-to-topics");
+
+  currentTopic = topic;
+  currentSubtopic = null;
+
+  container.innerHTML = "";
+  topicSelection.classList.add("hidden");
+  backButton.classList.remove("hidden");
+  backButton.innerText = "← Back to Topics";
+
+  const subtopics = Object.keys(data[topic]);
+  subtopics.forEach(sub => {
+    const button = document.createElement("button");
+    button.className = "subtopic-button";
+    button.innerText = sub.charAt(0).toUpperCase() + sub.slice(1);
+    button.onclick = () => showSubtopicFlashcards(topic, sub);
+    container.appendChild(button);
+  });
+}
+
+function showSubtopicFlashcards(topic, subtopic) {
+  const container = document.getElementById("flashcards");
+  const backButton = document.getElementById("back-to-topics");
+
+  currentTopic = topic;
+  currentSubtopic = subtopic;
+
+  container.innerHTML = "";
+  backButton.innerText = "← Back to Devanagari Script";
+
+  renderFlashcards(data[topic][subtopic]);
+}
+
+function renderFlashcards(flashcardData) {
+  const container = document.getElementById("flashcards");
+  flashcardData.forEach(([eng, roman, devanagari]) => {
     const card = document.createElement("div");
     card.className = "card";
-    
+
     card.innerHTML = `
       <div class="card-inner">
         <div class="card-front">
-          <strong>${eng}</strong>
+          ${currentTopic === "devanagariScript" ? `<span class="devanagari-script large">${devanagari}</span>` : `<strong>${eng}</strong>`}
         </div>
         <div class="card-back">
-          <span class="devanagari-script">${devanagari}</span>
+          ${currentTopic === "devanagariScript" ? `<strong>${eng}</strong>` : `<span class="devanagari-script">${devanagari}</span>`}
           <span class="romanized-script">${roman}</span>
         </div>
       </div>
     `;
-    card.addEventListener("click", () => {
-      // We target the inner card for the flip animation
-      card.classList.toggle("flipped");
-    });
-    flashcardContainer.appendChild(card);
+    card.addEventListener("click", () => card.classList.toggle("flipped"));
+    container.appendChild(card);
   });
 }
 
@@ -450,7 +545,13 @@ function goBackToTopics() {
   const topicSelection = document.getElementById("topic-selection");
   const backButton = document.getElementById("back-to-topics");
 
-  flashcardContainer.innerHTML = "";
-  topicSelection.style.display = "flex";
-  backButton.style.display = "none";
+  if (currentTopic && currentSubtopic) {
+    showSubtopics(currentTopic);
+    currentSubtopic = null;
+  } else {
+    currentTopic = null;
+    topicSelection.classList.remove("hidden");
+    backButton.classList.add("hidden");
+    flashcardContainer.innerHTML = "";
+  }
 }
