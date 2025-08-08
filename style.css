@@ -210,3 +210,13 @@ h1 {
 .hidden {
   display: none !important;
 }
+
+/* Grammar Vocabulary stays green */
+.topic-button.grammar-topic {
+    background-color: #10b981; /* Green */
+}
+
+/* Themed Vocabulary gets a new color */
+.topic-button.vocab-topic {
+    background-color: #ef4444; /* Red (change to any color you like) */
+}
