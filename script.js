@@ -1,28 +1,64 @@
 const data = {
-   greetings: [
-    ["Hello", "Namaste", "नमस्ते"],
+  pronouns: {
+  subject: [
+    ["I", "Ma", "म"],
+    ["You (informal)", "Timi", "तिमी"],
+    ["You (formal)", "Tapai", "तपाईं"],
+    ["He", "U / Uni", "ऊ / उनी"],
+    ["She", "U / Uni", "ऊ / उनी"],
+    ["It", "Yo / Tyo", "यो / त्यो"],
+    ["We", "Hami", "हामी"],
+    ["They", "Uniharu / Tiniharu", "उनीहरू / तिनीहरू"]
+  ],
+  object: [
+    ["to Me", "Malai", "मलाई"],
+    ["to You (informal)", "Timilai", "तिमीलाई"],
+    ["to You (formal)", "Tapaailai", "तपाईंलाई"],
+    ["to Him", "Uslai / Unilai", "उसलाई / उनलाई"],
+    ["to Her", "Uslai / Unilai", "उसलाई / उनलाई"],
+    ["to It", "Yaslai / Tyaslai", "यसलाई / त्यसलाई"],
+    ["to Us", "Haamilai", "हामीलाई"],
+    ["to Them", "Uniharulai / Tiniharulai", "उनीहरूलाई / तिनीहरूलाई"]
+  ],
+  possessive: [
+    ["My", "Mero / Mera / Meri", "मेरो / मेरा / मेरी"],
+    ["Your (informal)", "Timiro / Timra / Timri", "तिमीरो / तिम्रा / तिम्री"],
+    ["Your (formal)", "Tapaaiko / Tapaai'ka / Tapaai'ki", "तपाईंको / तपाईंका / तपाईंकी"],
+    ["His", "Uskō / Uska / Uski", "उसको / उसका / उसकी"],
+    ["Her", "Uskō / Uska / Uski", "उसको / उसका / उसकी"],
+    ["Its", "Yesko / Tyasko", "यसको / त्यसको"],
+    ["Our", "Haamro / Haamra / Haamri", "हाम्रो / हाम्रा / हाम्री"],
+    ["Their", "Uniharuko / Tiniharuko", "उनीहरूको / तिनीहरूको"]
+  ],
+  reflexive: [
+    ["Own (singular masculine)", "Aafno", "आफ्नो"],
+    ["Own (singular feminine)", "Aafni", "आफ्नी"],
+    ["Own (plural masculine or mixed)", "Aafna", "आफ्ना"],
+    ["Own (plural feminine)", "Aafniharu", "आफ्नीहरू"],
+    ["By oneself / Automatically", "Aafnai / Aafai", "आफ्नै / आफै"]
+  ],
+  unspecified: [
+    ["Someone", "Kunai vyakti / Kōhī", "कुनै व्यक्ति / कोही"],
+    ["Something", "Kehi / Kunai kura", "केही / कुनै कुरा"],
+    ["Anyone", "Junsukai vyakti / Kōhī pani", "जुनसुकै व्यक्ति / कोही पनि"],
+    ["Anything", "Kehi pani / Kunai pani kura", "केही पनि / कुनै पनि कुरा"]
+  ]
+},
+  greetingsIntroductions: [
+    ["Hello / Bye", "Namaste", "नमस्ते"],
     ["How are you?", "Tapaai kasto hunuhunchha?", "तपाईं कस्तो हुनुहुन्छ?"],
     ["I am fine", "Ma sanchai chhu", "म सन्चै छु"],
-    ["Nice to meet you", "Tapaailaai bhetera khushi lagyo", "तपाईंलाई भेटेर खुशी लाग्यो"],
-    ["Goodbye", "Albida / Namaste", "अल्विदा / नमस्ते"],
+    ["Thank you", "Dhanyabaad", "धन्यवाद"],
     ["See you soon", "Chittai bhetaulaa", "छिट्टै भेटौंला"],
     ["See you again", "Feri bhetaulaa", "फेरि भेटौंला"],
-    ["Take care", "Dhyān rakhnu hos", "ध्यान राख्नुहोस्"],
-    ["Thank you", "Dhanyabaad", "धन्यवाद"]
-  ],
-  introductions: [
     ["What is your name?", "Tapaaiko naam ke ho?", "तपाईंको नाम के हो?"],
     ["My name is...", "Mero naam ... ho", "मेरो नाम ... हो"],
-    ["Where are you from?", "Tapain kahaa baata hunuhunchha?", "तपाईं कहाँबाट हुनुहुन्छ?"],
-    ["I am from...", "Ma ... baata ho", "म ... बाट हो"],
-    ["How old are you?", "Tapain kati barsa hunu bhayo?", "तपाईं कति वर्ष हुनुभयो?"],
-    ["I am ... years old", "Ma ... barsa bhae", "म ... वर्ष भएँ"],
-    ["I am a student", "Ma bidyarthi ho", "म विद्यार्थी हुँ"],
+    ["Where do you live?", "tapaai kahaa basnuhunchha?", "तपाईं कहाँ बस्नुहुन्छ?"],
+    ["I live in...", "Ma ... maa baschhu", "म ... मा बस्छु"],
     ["What work do you do?", "Tapaai ke kaam garnuhunchha?", "तपाईं के काम गर्नुहुन्छ?"],
     ["I am ...", "Ma ... ho", "म ... हुँ"],
     ["This is my friend", "Yo mero saathi ho", "यो मेरो साथी हो"],
-    ["Where do you live?", "tapaai kahaa basnuhunchha?", "तपाईं कहाँ बस्नुहुन्छ?"],
-    ["I live in...", "Ma ... maa baschhu", "म ... मा बस्छु"]
+    ["This is ...", "Yo ... ho", "यो ... हो"]
   ],
   routine: [
     ["I wake up at 6", "Ma chha baje uthchhu", "म छ बजे उठ्छु"],
@@ -248,7 +284,7 @@ haveSentences: [
     ["What should I do?", "Maile ke garnu parchha?", "मैले के गर्नु पर्छ?"]
   ], // <-- COMMA HERE
 
-  commands: [
+  Commands: [
     ["Come here.", "Yahaa aaunus.", "यहाँ आउनुस्।"],
     ["Go there.", "Tyahaa jaanus.", "त्यहाँ जानुस्।"],
     ["Listen carefully.", "Dhyaan diyera sunnus.", "ध्यान दिएर सुन्नुस्।"],
@@ -258,206 +294,446 @@ haveSentences: [
     ["Don't do that.", "Tyo nagarnus.", "त्यो नगर्नुस्।"]
   ],
 
-  verbs: [
-    ["To eat", "Khaanu", "खानु"],
-    ["To go", "Jaannu", "जानु"],
-    ["To come", "Aaunu", "आउनु"],
-    ["To sleep", "Sutnu", "सुत्नु"],
-    ["To write", "Lekhnu", "लेख्नु"],
-    ["To speak", "Bolnu", "बोल्नु"],
+"verbs": {
+  "movement": [
+    ["To go", "Jāne", "जानु"],
+    ["To come", "Aaune", "आउनु"],
     ["To walk", "Hidnu", "हिँड्नु"],
-    ["To live", "Basnu", "बस्नु"],
-    ["To see", "Hernu", "हेर्नु"],
-    ["To read", "Padhnu", "पढ्नु"],
-    ["To give", "Dinu", "दिनु"],
+    ["To run", "Dauranu", "दौडनु"],
+    ["To live", "Basnu", "बस्नु"]
+  ],
+  "senses": [
+    ["To see", "Herne", "हेर्नु"],
+    ["To hear", "Sunnu", "सुन्नु"],
+    ["To eat", "Khaanu", "खानु"],
+    ["To drink", "Pinu", "पिउनु"],
+    ["To smell", "Sungnu", "सुँग्नु"]
+  ],
+  "communication": [
+    ["To speak", "Bholnu", "भोल्नु"],
+    ["To write", "Lekhnuhos", "लेख्नुहोस्"],
+    ["To read", "Padhna", "पढ्नु"],
+    ["To listen", "Sunnu", "सुन्नु"],
+    ["To tell", "Bhana", "भन"]
+  ],
+  "physicalActions": [
+    ["To make/do", "Garnu", "गर्नु"],
     ["To take", "Linu", "लिनु"],
-    ["To drink", "Piũnu", "पिउनु"],
-    ["To do", "Garnu", "गर्नु"],
-    ["To buy", "Kinnu", "किन्नु"],
-    ["To sell", "Bechnu", "बेच्नु"],
-    ["To hear/listen", "Sunnu", "सुन्‍नु"],
-    ["To play", "Khelnu", "खेल्नु"],
-    ["To wash", "Dhunu", "धुनु"],
+    ["To give", "Dinu", "दिनु"],
     ["To open", "Kholnu", "खोल्नु"],
-    ["To close", "Band garnu", "बन्द गर्नु"],
-    ["To call", "Bolaaunu", "बोलाउनु"],
-    ["To meet", "Bheṭnu", "भेट्नु"]
+    ["To close", "Band garnu", "बन्द गर्नु"]
   ],
+  "dailyActivities": [
+    ["To sleep", "Sutnu", "सुत्नु"],
+    ["To wake up", "Uthnu", "उठ्नु"],
+    ["To bathe", "Nahāunu", "नुहाउनु"],
+    ["To cook", "Pakasnu", "पाकाउनु"],
+    ["To study", "Padnu", "पढ्नु"]
+  ]
+},
 
-  nouns: [
+    Pronouns: [
+  ["I am happy", "ma khusi chhu", "म खुसी छु"],
+  ["I am a student", "ma bidyarthi ho", "म विद्यार्थी हो"],
+
+  ["You are (semi-formal) happy", "timi khusi chhau", "तिमी खुसी छौ"],
+  ["You are (semi-formal) a student", "timi bidyarthi hau", "तिमी विद्यार्थी हौ"],
+
+  ["You are (formal) happy", "tapai khusi hunuhunchha", "तपाईं खुसी हुनुहुन्छ"],
+  ["You are (formal) a student", "tapai bidyarthi hunuhunchha", "तपाईं विद्यार्थी हुनुहुन्छ"],
+
+  ["He/She is (informal) happy", "uha khusi chha", "उ खुसी छ"],
+  ["He/She is (informal) a student", "uha bidyarthi ho", "उ विद्यार्थी हो"],
+
+  ["He/She is (formal) happy", "wahaa khusi hunuhunchha", "उहाँ खुसी हुनुहुन्छ"],
+  ["He/She is (formal) a student", "wahaa bidyarthi hunuhunchha", "उहाँ विद्यार्थी हुनुहुन्छ"],
+
+  ["We are happy", "haami khusi chhaun", "हामी खुसी छौं"],
+  ["We are students", "haami bidyarthi hau", "हामी विद्यार्थी हौं"],
+
+  ["You all are (semi-formal) happy", "timi haru khusi chhau", "तिमीहरू खुसी छौ"],
+  ["You all are (semi-formal) students", "timi haru bidyarthi hau", "तिमीहरू विद्यार्थी हौ"],
+
+  ["You all are (formal) happy", "tapai haru khusi hunuhunchha", "तपाईंहरू खुसी हुनुहुन्छ"],
+  ["You all are (formal) students", "tapai haru bidyarthi hunuhunchha", "तपाईंहरू विद्यार्थी हुनुहुन्छ"],
+
+  ["They are (informal) happy", "uni haru khusi chhan", "उनीहरू खुसी छन्"],
+  ["They are (informal) students", "uni haru bidyarthi hun", "उनीहरू विद्यार्थी हुन्"],
+
+  ["They are (formal) happy", "wahaa haru khusi hunuhunchha", "उहाँहरू खुसी हुनुहुन्छ"],
+  ["They are (formal) students", "wahaa haru bidyarthi hunuhunchha", "उहाँहरू विद्यार्थी हुनुहुन्छ"],
+],
+
+"nouns": {
+  "Household Items": [
     ["House", "Ghar", "घर"],
-    ["Book", "Pustak", "पुस्तक"],
+    ["Chair", "Kursi", "कुर्सी"],
+    ["Table", "Mez", "मेज"],
+    ["Door", "Dhwāra / Darwāja", "ढोका / दरवाजा"],
+    ["Window", "Jhyālo", "झ्याल"],
+    ["Bed", "Palang", "पलङ"],
+    ["Fan", "Pankho", "पंखा"],
+    ["Light", "Batti", "बत्ती"]
+  ],
+  "School Supplies": [
+    ["Book", "Kitāb", "किताब"],
     ["Pen", "Kalam", "कलम"],
-    ["Water", "Paani", "पानी"],
-    ["Food", "Khaana", "खाना"],
-    ["Chair", "Mech", "मेच"],
-    ["Teacher", "Shikshak", "शिक्षक"],
-    ["Student", "Chhaatr", "छात्र"],
-    ["School", "Vidhyalaya", "विद्यालय"],
-    ["Table", "Tebul", "टेबल"],
-    ["Bed", "Ochaanaa", "ओछ्यान"],
-    ["Clothes", "Kapadaa", "कपडा"],
-    ["Door", "Dhoka", "ढोका"],
-    ["Window", "Jhyal", "झ्याल"],
-    ["Bag", "Jhola", "झोला"],
-    ["Phone", "Mobile", "मोबाइल"],
-    ["Father", "Buwaa", "बुबा"],
+    ["Pencil", "Pencil", "पेंसिल"],
+    ["Notebook", "Copy", "कपी"],
+    ["Eraser", "Rubber", "रबर"],
+    ["Bag", "Bāg / Basta", "ब्याग / बस्ता"],
+    ["Board", "Board", "बोर्ड"],
+    ["Marker", "Marker", "मार्कर"]
+  ],
+  "Essentials": [
+    ["Water", "Pāni", "पानी"],
+    ["Food", "Khānā", "खाना"],
+    ["Milk", "Doodh", "दूध"],
+    ["Bread", "Double Roti", "डबल रोटी"],
+    ["Salt", "Namak", "नून"],
+    ["Sugar", "Chini", "चिनी"],
+    ["Oil", "Tel", "तेल"],
+    ["Rice", "Bhat / Chāwal", "भात / चामल"]
+  ],
+  "People": [
+    ["Teacher", "Adhyāpak", "अध्यापक"],
+    ["Student", "Chhātra", "छात्र"],
     ["Mother", "Aama", "आमा"],
-    ["Sun", "Surya", "सूर्य"],
-    ["Moon", "Chandramā", "चन्द्रमा"]
-  ],
+    ["Father", "Bābā", "बाबा"],
+    ["Brother", "Dai", "दाइ"],
+    ["Sister", "Didi", "दिदी"],
+    ["Friend", "Mitra", "मित्र"],
+    ["Child", "Bālachha", "बालक"]
+  ]
+},
 
-  adjectives: [
+ "adjectives": {
+  "size": [
     ["Big", "Thulo", "ठूलो"],
-    ["Small", "Saano", "सानो"],
-    ["Beautiful", "Sundar", "सुन्दर"],
-    ["Hot", "Garmi", "गर्मी"],
-    ["Cold", "Chiso", "चिसो"],
-    ["Happy", "Khushi", "खुसी"],
-    ["Fast", "Chito", "छिटो"],
-    ["Slow", "Dhilo", "ढिलो"],
-    ["Good", "Ramro", "राम्र‍ो"],
-    ["Bad", "Naramro", "नराम्र‍ो"],
+    ["Small", "Sano", "सानो"],
     ["Tall", "Lamo", "लामो"],
-    ["Short", "Hocho", "होचो"],
-    ["Clean", "Safa", "सफा"],
-    ["Dirty", "Mailo", "मैलो"],
-    ["New", "Nayā̃", "नयाँ"],
-    ["Old", "Puraano", "पुरानो"],
-    ["Sweet", "Mitho", "मिठो"],
-    ["Bitter", "Tito", "तिक्त"],
-    ["Easy", "Sajilo", "सजिलो"],
-    ["Difficult", "Gaaro", "गाह्रो"]
+    ["Short", "Sano", "सानो"],
+    ["Huge", "Dairo Thulo", "धेरै ठूलो"]
   ],
+  "appearance": [
+    ["Beautiful", "Ramro", "राम्रो"],
+    ["Ugly", "Kharāb", "खराब"],
+    ["Clean", "Saphā", "सफा"],
+    ["Dirty", "Fāṅgliyo", "फाङ्ग्लियो"],
+    ["Smart", "Bujhdār", "बुझदार"]
+  ],
+  "temperature": [
+    ["Hot", "Tato", "तातो"],
+    ["Cold", "Chiso", "चिसो"],
+    ["Warm", "Naram", "नरम"],
+    ["Cool", "Thando", "ठंडो"],
+    ["Freezing", "Jamdai", "जम्दै"]
+  ],
+  "emotions": [
+    ["Happy", "Khusi", "खुसी"],
+    ["Sad", "Dukhi", "दुखी"],
+    ["Angry", "Risālo", "रिसालो"],
+    ["Excited", "Utsahit", "उत्साहित"],
+    ["Scared", "Darāyeko", "डराएको"]
+  ],
+  "speed": [
+    ["Fast", "Chito", "छिटो"],
+    ["Slow", "Bistārāi", "बिस्तारै"],
+    ["Quick", "Chito", "छिटो"],
+    ["Speedy", "Tiwro", "तीव्र"],
+    ["Sluggish", "Sust", "सुस्त"]
+  ]
+}
+,
 
-  adverbs: [
+"adverbs": {
+  "manner": [
     ["Quickly", "Chito", "छिटो"],
-    ["Slowly", "Bistaarai", "बिस्तारै"],
+    ["Slowly", "Bistārāi", "बिस्तारै"],
+    ["Carefully", "Savarī", "सावधानी"],
+    ["Loudly", "Jorle", "जोरले"],
+    ["Silently", "Chupchap", "चुपचाप"]
+  ],
+  "frequency": [
     ["Always", "Sadhai", "सधैं"],
-    ["Never", "Kahile pani hoina", "कहिले पनि होइन"],
+    ["Never", "Kabhī pani hoina", "कहिले पनि होइन"],
+    ["Often", "Prayaḥ", "प्रायः"],
+    ["Sometimes", "Kabhī-kabhī", "कहिले कहिले"],
+    ["Rarely", "Dherai dherai hoina", "धेरै धेरै होइन"]
+  ],
+  "time": [
     ["Today", "Aaja", "आज"],
     ["Yesterday", "Hijo", "हिजो"],
-    ["Tomorrow", "Bholi", "भोलि"],
+    ["Tomorrow", "Bholi", "भोली"],
     ["Now", "Ahile", "अहिले"],
-    ["Then", "Tyaspachi", "त्यसपछि"],
-    ["Often", "Dherai jaso", "धेरैजसो"],
-    ["Sometimes", "Kahile kahĩ", "कहिले कहिँ"],
-    ["Early", "Chhito", "छिटो"],
-    ["Late", "Dhilo", "ढिलो"],
-    ["Here", "Yahã̃", "यहाँ"],
-    ["There", "Tyahã̃", "त्यहाँ"],
-    ["Everyday", "Harek din", "हरेक दिन"],
-    ["Tonight", "Aaja raat", "आज रात"],
-    ["This morning", "Aaja bihani", "आज बिहान"],
-    ["Soon", "Chhito nai", "छिट्टै नै"]
-  ],
+    ["Later", "Pachi", "पछि"]
+  ]
+}
+,
 
-  prepositions: [
-    ["On", "Mathi", "माथि"],
-    ["Under", "Muni", "मुनि"],
+present_simple_tense: [
+  // I
+  ["I eat rice", "ma bhat khanchhu", "म भात खान्छु"],
+  ["I go home", "ma ghar janchhu", "म घर जान्छु"],
+
+  // You (semi-formal)
+  ["You eat rice (semi-formal)", "timi bhat khauchhau", "तिमी भात खाउँछौ"],
+  ["You go home (semi-formal)", "timi ghar janchhau", "तिमी घर जान्छौ"],
+
+  // You (formal)
+  ["You eat rice (formal)", "tapai bhat khanuhunchha", "तपाईं भात खानुहुन्छ"],
+  ["You go home (formal)", "tapai ghar januhunchha", "तपाईं घर जानुहुन्छ"],
+
+  // He/She (informal)
+  ["He eats rice", "uha bhat khanchha", "उ भात खान्छ"],
+  ["He goes home", "uha ghar janchha", "उ घर जान्छ"],
+
+  // He/She (formal)
+  ["He eats rice (formal)", "wahaa bhat khanuhunchha", "उहाँ भात खानुहुन्छ"],
+  ["He goes home (formal)", "wahaa ghar januhunchha", "उहाँ घर जानुहुन्छ"],
+
+  // We
+  ["We eat rice", "haami bhat khanchhaun", "हामी भात खान्छौं"],
+  ["We go home", "haami ghar janchhaun", "हामी घर जान्छौं"],
+
+  // You all (semi-formal)
+  ["You all eat rice (semi-formal)", "timi haru bhat khauchhau", "तिमीहरू भात खाउँछौ"],
+  ["You all go home (semi-formal)", "timi haru ghar janchhau", "तिमीहरू घर जान्छौ"],
+
+  // You all (formal)
+  ["You all eat rice (formal)", "tapai haru bhat khanuhunchha", "तपाईंहरू भात खानुहुन्छ"],
+  ["You all go home (formal)", "tapai haru ghar januhunchha", "तपाईंहरू घर जानुहुन्छ"],
+
+  // They (informal)
+  ["They eat rice", "uni haru bhat khanchhan", "उनीहरू भात खान्छन्"],
+  ["They go home", "uni haru ghar janchhan", "उनीहरू घर जान्छन्"],
+
+  // They (formal)
+  ["They eat rice (formal)", "wahaa haru bhat khanuhunchha", "उहाँहरू भात खानुहुन्छ"],
+  ["They go home (formal)", "wahaa haru ghar januhunchha", "उहाँहरू घर जानुहुन्छ"]
+],
+
+present_continuous_tense: [
+  // I
+  ["I am eating rice", "ma bhat khāndaichhu", "म भात खाँदैछु"],
+  ["I am going home", "ma ghar jāndaichhu", "म घर जाँदैछु"],
+
+  // You (semi-formal)
+  ["You are eating rice (semi-formal)", "timi bhat khāndaichhau", "तिमी भात खाँदैछौ"],
+  ["You are going home (semi-formal)", "timi ghar jāndaichhau", "तिमी घर जाँदैछौ"],
+
+  // You (formal)
+  ["You are eating rice (formal)", "tapai bhat khāndaihunuhunchha", "तपाईं भात खाँदै हुनुहुन्छ"],
+  ["You are going home (formal)", "tapai ghar jāndaihunuhunchha", "तपाईं घर जाँदै हुनुहुन्छ"],
+
+  // He/She (informal)
+  ["He is eating rice", "uha bhat khāndaichha", "उ भात खाँदैछ"],
+  ["He is going home", "uha ghar jāndaichha", "उ घर जाँदैछ"],
+
+  // He/She (formal)
+  ["He is eating rice (formal)", "wahaa bhat khāndaihunuhunchha", "उहाँ भात खाँदै हुनुहुन्छ"],
+  ["He is going home (formal)", "wahaa ghar jāndaihunuhunchha", "उहाँ घर जाँदै हुनुहुन्छ"],
+
+  // We
+  ["We are eating rice", "haami bhat khāndaichhaun", "हामी भात खाँदैछौं"],
+  ["We are going home", "haami ghar jāndaichhaun", "हामी घर जाँदैछौं"],
+
+  // You all (semi-formal)
+  ["You all are eating rice (semi-formal)", "timi haru bhat khāndaichhau", "तिमीहरू भात खाँदैछौ"],
+  ["You all are going home (semi-formal)", "timi haru ghar jāndaichhau", "तिमीहरू घर जाँदैछौ"],
+
+  // You all (formal)
+  ["You all are eating rice (formal)", "tapai haru bhat khāndaihunuhunchha", "तपाईंहरू भात खाँदै हुनुहुन्छ"],
+  ["You all are going home (formal)", "tapai haru ghar jāndaihunuhunchha", "तपाईंहरू घर जाँदै हुनुहुन्छ"],
+
+  // They (informal)
+  ["They are eating rice", "uni haru bhat khāndaichhan", "उनीहरू भात खाँदैछन्"],
+  ["They are going home", "uni haru ghar jāndaichhan", "उनीहरू घर जाँदैछन्"],
+
+  // They (formal)
+  ["They are eating rice (formal)", "wahaa haru bhat khāndaihunuhunchha", "उहाँहरू भात खाँदै हुनुहुन्छ"],
+  ["They are going home (formal)", "wahaa haru ghar jāndaihunuhunchha", "उहाँहरू घर जाँदै हुनुहुन्छ"]
+],
+"relationshipWords": [
+  ["Mother", "Aama", "आमा"],
+  ["Father", "Baa", "बाबा"],
+  ["Brother", "Dai", "दाई"],
+  ["Sister", "Didi", "दिदी"],
+  ["Friend", "Mitra", "मित्र"],
+  ["Husband", "Pati", "पति"],
+  ["Wife", "Patni", "पत्नी"],
+  ["Son", "Chhora", "छोरा"],
+  ["Daughter", "Chhori", "छोरी"]
+],
+
+"Time": {
+  "daysOfWeek": [
+    ["Sunday", "Aaitabar", "आइतबार"],
+    ["Monday", "Sombar", "सोमबार"],
+    ["Tuesday", "Mangalbar", "मंगलबार"],
+    ["Wednesday", "Budhabar", "बुधबार"],
+    ["Thursday", "Bihibar", "बिहिबार"],
+    ["Friday", "Shukrabar", "शुक्रबार"],
+    ["Saturday", "Sanibar", "शनिबार"]
+  ],
+  "timeUnits": [
+    ["Hour", "Ghaṇṭa", "घण्टा"],
+    ["Minute", "Minute", "मिनेट"],
+    ["Second", "Second", "सेकेण्ड"],
+    ["Morning", "Bihan", "बिहान"],
+    ["Afternoon", "Dopahar", "दोपहर"],
+    ["Evening", "Sandhya", "साँझ"],
+    ["Night", "Raat", "रात"]
+  ]
+}
+,
+"prepositions": {
+  "place": [
+    ["On", "Mā", "मा"],
+    ["Under", "Tāla", "तल्ला"],
     ["In", "Bhitra", "भित्र"],
     ["Out", "Bahira", "बाहिर"],
-    ["Beside", "Chheuma", "छेउमा"],
-    ["Between", "Beechma", "बीचमा"],
-    ["Near", "Najikai", "नजिकै"],
-    ["Far", "Tadha", "टाढा"],
-    ["In front of", "Agaadi", "अगाडि"],
-    ["Behind", "Pachaadi", "पछाडि"],
-    ["Above", "Mathi", "माथि"],
-    ["Below", "Tala", "तल"],
-    ["Left", "Baayãa", "बायाँ"],
-    ["Right", "Daayaa", "दायाँ"],
-    ["Inside", "Bhitra", "भित्र"],
-    ["Outside", "Bahir", "बाहिर"],
-    ["Around", "Varipari", "वरिपरि"],
-    ["Across", "Pari", "पारि"]
+    ["Beside", "Tira", "तिर"]
   ],
-
-  conjunctions: [
-  ["And", "Ra / Ani", "र / अनि"],
-  ["But", "Tara", "तर"],
-  ["Because", "Kinabhane / Kinaki", "किनभने / किनकि"],
-  ["If", "Yadi", "यदि"],
-  ["So", "Tesaile", "त्यसैले"],
-  ["Or", "Wa / athwaa / Ki", "वा / अथवा/ की "],
-  ["That", "Ki", "कि"],
+  "position": [
+    ["Between", "Bīch", "बीच"],
+    ["Near", "Nijikaṭ", "नजिकट"],
+    ["Over", "Mūpār", "मुनि"],
+    ["Behind", "Pīchhū", "पछाडि"],
+    ["In front of", "Sāmnā", "सामना"]
+  ]
+}
+,
+"conjunctions": {
+  "coordination": [
+    ["And", "Ra", "र"],
+    ["But", "Tara", "तर"],
+    ["Or", "Wa", "वा"],
+    ["Nor", "Na ta", "न त"],
+    ["Yet", "Tara pani", "तर पनि"]
   ],
+  "subordination": [
+    ["Because", "Kinabhane", "किनभने"],
+    ["If", "Yadi", "यदि"],
+    ["Although", "Yadi pani", "यद्यपि"],
+    ["Since", "Jaba dekhi", "जबदेखि"],
+    ["While", "Jaba samma", "जबसम्म"]
+  ]
+}
+,
 
-  questionWords: [
-  ["What", "Ke", "के"],
-  ["Where", "Kaha", "कहाँ"],
-  ["When", "Kahile", "कहिले"],
-  ["Who", "Ko", "को"],
-  ["Why", "Kin?", "किन?"],
-  ["How", "Kasari", "कसरी"],
-  ["Which", "Kun", "कुन"],
-  ["Whose", "Kasko", "कसको"],
-  ["How many", "Kati", "कति"],
-  ["How much", "Kati", "कति"],
-  ["Whom", "Kasalai", "कसलाई"]
-  ["With whom", "Kosanga", "कोसँग"],
-  ["To whom", "Kasalai", "कसलाई"],
-  ["For whom", "Kasko lagi", "कसको लागि"],
-  ["About what", "Keko barema", "केको बारेमा"],
-  ["With what", "Kesãga", "केसँग"],
-  ["To where", "Kahã samma", "कहाँसम्म"],
-  ["From where", "Kahãbata", "कहाँबाट"],
-  ["How long", "Kati bela samma", "कति बेला सम्म"],
-  ["How far", "Kati taadha", "कति टाढा"],
-  ["Since when", "Kahile dekhi", "कहिले देखि"],
-  ["Until when", "Kahile samma", "कहिले सम्म"],
-  ["How many people", "Kati jana", "कति जना"],
-  ["What time", "Kati baje", "कति बजे"]
-  ["How often", "Kati choti", "कति पटक / कति चोटी"]
+ "question": {
+  "Wh-Question Words": [
+    ["What", "Ke", "के"],
+    ["Where", "Kahã", "कहाँ"],
+    ["When", "Kahile", "कहिले"],
+    ["Who", "Ko", "को"],
+    ["Why", "Kin", "किन"],
+    ["How", "Kasari", "कसरी"],
+    ["Which", "Kun", "कुन"]
   ],
-   devanagariScript: {
-    vowels: [
-      ["A", "a", "अ"], ["AA", "aa", "आ"], ["I", "i", "इ"], ["II", "ee", "ई"],
-      ["U", "u", "उ"], ["UU", "oo", "ऊ"], ["RI", "ri", "ऋ"], ["E", "e", "ए"],
-      ["AI", "ai", "ऐ"], ["O", "o", "ओ"], ["AU", "au", "औ"], ["An", "an", "अं"],
-      ["Ah", "ah", "अः"]
-    ],
-consonants: [
-  ["Ka", "ka", "क"], ["Kha", "kha", "ख"], ["Ga", "ga", "ग"], ["Gha", "gha", "घ"], ["Nga", "nga", "ङ"],
-  ["Cha", "cha", "च"], ["Chha", "chha", "छ"], ["Ja", "ja", "ज"], ["Jha", "jha", "झ"], ["Nya", "nya", "ञ"],
-  ["Ta", "ṭa", "ट"], ["Tha", "ṭha", "ठ"], ["Da", "ḍa", "ड"], ["Dha", "ḍha", "ढ"], ["Na", "ṇa", "ण"],
-  ["Ta", "ta", "त"], ["Tha", "tha", "थ"], ["Da", "da", "द"], ["Dha", "dha", "ध"], ["Na", "na", "न"],
-  ["Pa", "pa", "प"], ["Pha", "pha", "फ"], ["Ba", "ba", "ब"], ["Bha", "bha", "भ"], ["Ma", "ma", "म"],
-  ["Ya", "ya", "य"], ["Ra", "ra", "र"], ["La", "la", "ल"], ["Va", "va", "व"],
-  ["Sha", "sha", "श"], ["Sha (retroflex)", "ṣa", "ष"], ["Sa", "sa", "स"], ["Ha", "ha", "ह"],
-  ["Ksha", "kṣa", "क्ष"], ["Tra", "tra", "त्र"], ["Gya", "gya", "ज्ञ"]
-],
+  "Yes / No Question Words": [
+    ["Are you", "Ke timi", "के तिमी"],
+    ["Is he", "Ke u", "के ऊ"],
+    ["Do you", "Ke tapaaĩ", "के तपाईं"]
+  ]
+}
+,
+ IndependentVowels: {
+    content: [
+    ["अ", "", "a"],
+    ["आ", "", "aa"],
+    ["इ", "", "i"],
+    ["ई", "", "ee"],
+    ["उ", "", "u"],
+    ["ऊ", "", "oo"],
+    ["ऋ", "", "ri"],
+    ["ए", "", "e"],
+    ["ऐ", "", "ai"],
+    ["ओ", "", "o"],
+    ["औ", "", "au"],
+    ["अं", "", "an"],
+    ["अः", "", "ah"]
+  ],
+    examples: []
+  },
 
-    matras: [
-  ["aa", "aa", "ा"], ["i", "i", "ि"], ["ii", "ee", "ी"],
-  ["u", "u", "ु"], ["uu", "oo", "ू"], ["ri", "ri", "ृ"],
-  ["e", "e", "े"], ["ai", "ai", "ै"], ["o", "o", "ो"],
-  ["au", "au", "ौ"], ["anuswar", "an", "ं"], ["visarga", "ah", "ः"]
-],
+  DependentVowels: {
+    content: [
+    ["ा", "", "aa"],
+    ["ि", "", "i"],
+    ["ी", "", "ee"],
+    ["ु", "", "u"],
+    ["ू", "", "oo"],
+    ["ृ", "", "ri"],
+    ["े", "", "e"],
+    ["ै", "", "ai"],
+    ["ो", "", "o"],
+    ["ौ", "", "au"],
+    ["ं", "", "an"],
+    ["ः", "", "ah"]
+  ],
+    examples: []
+  },
 
- simpleWords: [
-  ["Ram", "Ram", "राम"],
-  ["Pani", "Paani", "पानी"],
-  ["Kitaab", "Kitaab", "किताब"],
-  ["Ghar", "Ghar", "घर"],
-  ["Maa", "Maa", "माँ"],
-  ["Baccha", "Bacchaa", "बच्चा"],
-  ["Ped", "Ped", "पेड़"],
-  ["Kutta", "Kuttaa", "कुत्ता"],
-  ["Suraj", "Sooraj", "सूरज"],
-  ["Chand", "Chaand", "चाँद"],
-  ["Roti", "Roti", "रोटी"],
-  ["Doodh", "Doodh", "दूध"],
-  ["Pustak", "Pustak", "पुस्तक"],
-  ["Mez", "Mez", "मेज़"],
-  ["Kursi", "Kursi", "कुर्सी"]
-],
+  Consonants: {
+    content:[
+    ["क", "", "ka"], ["ख", "", "kha"], ["ग", "", "ga"], ["घ", "", "gha"], ["ङ", "", "nga"],
+    ["च", "", "cha"], ["छ", "", "chha"], ["ज", "", "ja"], ["झ", "", "jha"], ["ञ", "", "nya"],
+    ["ट", "", "ṭa"], ["ठ", "", "ṭha"], ["ड", "", "ḍa"], ["ढ", "", "ḍha"], ["ण", "", "ṇa"],
+    ["त", "", "ta"], ["थ", "", "tha"], ["द", "", "da"], ["ध", "", "dha"], ["न", "", "na"],
+    ["प", "", "pa"], ["फ", "", "pha"], ["ब", "", "ba"], ["भ", "", "bha"], ["म", "", "ma"],
+    ["य", "", "ya"], ["र", "", "ra"], ["ल", "", "la"], ["व", "", "va"],
+    ["श", "", "sha"], ["ष", "", "ṣa"], ["स", "", "sa"], ["ह", "", "ha"],
+    ["क्ष", "", "kṣa"], ["त्र", "", "tra"], ["ज्ञ", "", "gya"]
+  ],
+    examples: []
+  },
 
-    conjuncts: [
-      ["Kta", "kta", "क्त"], ["Tra", "tra", "त्र"], ["Gya", "gya", "ज्ञ"], ["Shra", "shra", "श्र"]
-    ]
+  ConjunctCharacters: {
+    content: [
+    ["क्त", "", "kta"],
+    ["त्र", "", "tra"],
+    ["ज्ञ", "", "gya"],
+    ["श्र", "", "shra"],
+    ["क्ष", "", "kṣa"],
+    ["ज्ञ", "", "gya"],
+    ["त्र", "", "tra"],
+    ["श्र", "", "śra"],
+    ["द्य", "", "dya"],
+    ["स्थ", "", "stha"]
+  ],
+    examples: []
+  },
+
+  ChandrabinduAndDot: {
+    content: [
+    ["ँ", "", "˜"],
+    ["ं", "", "an"],
+    ["ः", "", "ah"],
+    ["़", "", "."],
+    ["ऽ", "", "’"]
+  ],
+    examples: []
+  },
+
+  Numbers: {
+    content: [
+    ["०", "", "shoonya"],
+    ["१", "", "ek"],
+    ["२", "", "do"],
+    ["३", "", "teen"],
+    ["४", "", "chaar"],
+    ["५", "", "paanch"],
+    ["६", "", "chhah"],
+    ["७", "", "saat"],
+    ["८", "", "aath"],
+    ["९", "", "nau"]
+  ],
+    examples: []
   }
-};
+}
+;
 let currentTopic = null;
 let currentSubtopic = null;
 
