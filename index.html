@@ -15,59 +15,59 @@
       <h1>Nepali Language Flashcards</h1>
       <p class="subtitle">Your interactive tool to master Nepali vocabulary, grammar, and more.</p>
     </header>
+        <div id="topic-selection">
 
-    <div id="topic-selection">
-      <div class="topic-section">
-        <h2 class="topic-title">Basics</h2>
+          <div class="topic-section">
+        <h2 class="topic-title">Grammar Vocabulary</h2>
         <div class="topics">
-          <button class="topic-button basic-topic" onclick="showTopic('greetings')">Greetings</button>
-          <button class="topic-button basic-topic" onclick="showTopic('introductions')">Introductions</button>
-          <button class="topic-button basic-topic" onclick="showTopic('routine')">Daily Routine</button>
-          <button class="topic-button basic-topic" onclick="showTopic('food')">Food</button>
-          <button class="topic-button basic-topic" onclick="showTopic('travel')">Travel</button>
-          <button class="topic-button basic-topic" onclick="showTopic('shopping')">Shopping</button>
-          <button class="topic-button basic-topic" onclick="showTopic('numbers')">Numbers</button>
-          <button class="topic-button basic-topic" onclick="showTopic('family')">Family</button>
-          <button class="topic-button basic-topic" onclick="showTopic('health')">Health</button>
-          <button class="topic-button basic-topic" onclick="showTopic('daysAndTime')">Days & Time</button>
-          <button class="topic-button basic-topic" onclick="showTopic('weather')">Weather</button>
-          <button class="topic-button basic-topic" onclick="showTopic('emotions')">Emotions</button>
+                    <button class="topic-button grammar-topic" onclick="showTopic('pronouns')">Pronouns</button>
+                    <button class="topic-button grammar-topic" onclick="showTopic('verbs')">Verbs</button>
+                    <button class="topic-button grammar-topic" onclick="showTopic('nouns')">Nouns</button>
+                    <button class="topic-button grammar-topic" onclick="showTopic('adjectives')">Adjectives</button>
+                    <button class="topic-button grammar-topic" onclick="showTopic('adverbs')">Adverbs</button>
+                    <button class="topic-button grammar-topic" onclick="showTopic('prepositions')">Post positions</button>
+                    <button class="topic-button grammar-topic" onclick="showTopic('conjunctions')">Conjunctions</button>
+                    <button class="topic-button grammar-topic" onclick="showTopic('question')">Questions</button>
         </div>
       </div>
+<div class="topic-section">
+                <h2 class="topic-title">Themed Vocabulary</h2>
+                <div class="topics">
+                    <button class="topic-button vocab-topic" onclick="showTopic('numbers')">Numbers</button>
+                    <button class="topic-button vocab-topic" onclick="showTopic('relationshipWords')">Relationship Terms</button>
+                    <button class="topic-button vocab-topic" onclick="showTopic('Time')">Time related words</button>
+                </div>
+            </div>
 
-      <div class="topic-section">
-        <h2 class="topic-title">Sentence Structures</h2>
-        <div class="topics">
-          <button class="topic-button sentence-topic" onclick="showTopic('haveSentences')">Sentences with 'have'</button>
-          <button class="topic-button sentence-topic" onclick="showTopic('wantSentences')">Sentences with 'want'</button>
-          <button class="topic-button sentence-topic" onclick="showTopic('likeSentences')">Sentences with 'like'</button>
-          <button class="topic-button sentence-topic" onclick="showTopic('needSentences')">Sentences with 'need'</button>
-          <button class="topic-button sentence-topic" onclick="showTopic('canSentences')">Sentences with 'can'</button>
-          <button class="topic-button sentence-topic" onclick="showTopic('shouldHaveTo')">Should / Have to</button>
-          <button class="topic-button sentence-topic" onclick="showTopic('commands')">Commands</button>
-        </div>
-      </div>
+        
+<div class="topic-section">
+                <h2 class="topic-title">Sentence Structures</h2>
+                <div class="topics">
+         <button class="topic-button sentence-topic" onclick="showTopic('basicSentences')">Basic Sentences</button>
+                  <button class="topic-button sentence-topic" onclick="showTopic('GerundInfinitives')">Gerund & Infinitives</button>
+                 <button class="topic-button sentence-topic" onclick="showTopic('tenses')">Tenses</button>
+                    <button class="topic-button sentence-topic" onclick="showTopic('wantSentences')">Want</button>
+                    <button class="topic-button sentence-topic" onclick="showTopic('haveSentences')"><i class="fas fa-book"></i> Have</button>
+                    <button class="topic-button sentence-topic" onclick="showTopic('likeSentences')"><i class="fas fa-thumbs-up"></i> Like</button>
+                    <button class="topic-button sentence-topic" onclick="showTopic('canSentences')"><i class="fas fa-check-circle"></i> Can</button>
+                    <button class="topic-button sentence-topic" onclick="showTopic('shouldHaveTo')">Should/Have To</button>
+                    <button class="topic-button sentence-topic" onclick="showTopic('Commands')">Commands</button>
 
-      <div class="topic-section">
-        <h2 class="topic-title">Grammar & Vocabulary</h2>
-        <div class="topics">
-          <button class="topic-button grammar-topic" onclick="showTopic('verbs')">Verbs</button>
-          <button class="topic-button grammar-topic" onclick="showTopic('nouns')">Nouns</button>
-          <button class="topic-button grammar-topic" onclick="showTopic('adjectives')">Adjectives</button>
-          <button class="topic-button grammar-topic" onclick="showTopic('adverbs')">Adverbs</button>
-          <button class="topic-button grammar-topic" onclick="showTopic('prepositions')">Prepositions</button>
-          <button class="topic-button grammar-topic" onclick="showTopic('conjunctions')">Conjunctions</button>
-          <button class="topic-button grammar-topic" onclick="showTopic('questionWords')">Wh-Question Words</button>
-        </div>
-      </div>
+                </div>
+            </div>
 
-      <div class="topic-section">
-        <h2 class="topic-title">Devanagari Script</h2>
-        <div class="topics">
-          <button class="topic-button script-topic" onclick="showTopic('devanagariScript')"><i class="fas fa-pen-alt"></i> Devanagari Script</button>
+            <div class="topic-section">
+                <h2 class="topic-title">Devanagari Script</h2>
+                <div class="topics">
+                    <button class="topic-button script-topic" onclick="showTopic('IndependentVowels')">Independent Vowels</button>
+                    <button class="topic-button script-topic" onclick="showTopic('DependentVowels')">Dependent Vowels (Matras)</button>
+                    <button class="topic-button script-topic" onclick="showTopic('Consonants')">Consonants</button>
+                    <button class="topic-button script-topic" onclick="showTopic('ConjunctCharacters')">Conjunct / Half Characters / Halant / Ra Half Letter</button>
+                    <button class="topic-button script-topic" onclick="showTopic('ChandrabinduAndDot')">Moon Dot and Dot</button>
+                    <button class="topic-button script-topic" onclick="showTopic('Numbers')">Numbers</button>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
     <button id="back-to-topics" class="back-button hidden" onclick="goBackToTopics()">← Back to Topics</button>
     <div id="flashcards" class="flashcards"></div>
