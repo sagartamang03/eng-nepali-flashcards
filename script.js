@@ -1,4 +1,131 @@
 const data = {
+
+  know_phrases_nepali: [
+  ["I know", "Malai tha chha", "मलाई थाहा छ"],
+  ["You know", "Tapaailai tha chha", "तपाईंलाई थाहा छ"],
+  ["He knows", "Uslai tha chha", "उसलाई थाहा छ"],
+  ["She knows", "Uslai tha chha", "उसलाई थाहा छ"],
+  ["We know", "Hamilai tha chha", "हामीलाई थाहा छ"],
+  ["They know", "Uniharulai tha chha", "उनीहरूलाई थाहा छ"],
+  ["Do you know?", "Ke tapaailai tha chha?", "के तपाईंलाई थाहा छ?"],
+  ["I don’t know", "Malai tha chhaina", "मलाई थाहा छैन"],
+  ["You don’t know", "Tapaailai tha chhaina", "तपाईंलाई थाहा छैन"]
+],
+
+time_phrases_nepali: [
+  ["It is one o'clock", "Ek baje ho", "एक बजे हो"],
+  ["It is two o'clock", "Dui baje ho", "दुई बजे हो"],
+  ["It is three o'clock", "Tin baje ho", "तीन बजे हो"],
+  ["It is four o'clock", "Char baje ho", "चार बजे हो"],
+  ["It is five o'clock", "Paanch baje ho", "पाँच बजे हो"],
+  ["It is six o'clock", "Chha baje ho", "छ बजे हो"],
+  ["It is seven o'clock", "Saat baje ho", "सात बजे हो"],
+  ["It is eight o'clock", "Aath baje ho", "आठ बजे हो"],
+  ["It is nine o'clock", "Nau baje ho", "नौ बजे हो"],
+  ["It is ten o'clock", "Das baje ho", "दश बजे हो"],
+  ["It is eleven o'clock", "Gyaarah baje ho", "एघार बजे हो"],
+  ["It is twelve o'clock", "Baarah baje ho", "बाह्र बजे हो"],
+  ["What time is it?", "Kati baje ho?", "कति बजे हो?"],
+  ["It is half past three", "Sāḍhe tin baje ho", "साढे तीन बजे हो"],
+  ["It is quarter past five", "Sawa paanch baje ho", "सवा पाँच बजे हो"],
+  ["It is quarter to four", "Pau char baje ho", "पाउ चार बजे हो"]
+],
+
+comparative_structures_nepali: {
+  than_phrases: [
+    ["I am taller than you", "Ma tapai bhanda lamcho chu", "म तपाई भन्दा लामो छु"],
+    ["She is smarter than him", "Uni us bhanda bujhuk chha", "उनी उस भन्दा बुझुक छ"],
+    ["This book is better than that", "Yo kitab tyo bhanda ramro chha", "यो किताब त्यो भन्दा राम्रो छ"],
+    ["Today is hotter than yesterday", "Aaja hijobanda taato chha", "आज हिजो भन्दा तातो छ"],
+    ["Your house is bigger than mine", "Tapai ko ghar mero ghar bhanda thulo chha", "तपाईंको घर मेरो घर भन्दा ठूलो छ"],
+    ["I run faster than my friend", "Ma mero saathi bhanda chito daudchhu", "म मेरो साथी भन्दा छिटो दौड्छु"],
+    ["He works harder than before", "U pahile bhanda dherai mehnat garchha", "उ पहिले भन्दा धेरै मेहनत गर्छ"],
+    ["This road is longer than that road", "Yo bato tyo bato bhanda lamcho chha", "यो बाटो त्यो बाटो भन्दा लामो छ"]
+  ],
+
+  the_most_phrases: [
+    ["He is the tallest in the class", "U kakshyama sabai bhanda lamcho chha", "उ कक्षामा सबै भन्दा लामो छ"],
+    ["This is the best movie", "Yo sabai bhanda ramro chalchitra ho", "यो सबै भन्दा राम्रो चलचित्र हो"],
+    ["She is the smartest student", "Uni sabai bhanda bujhuk vidyarthi ho", "उनी सबै भन्दा बुझुक विद्यार्थी हो"],
+    ["This road is the longest", "Yo bato sabai bhanda lamcho chha", "यो बाटो सबै भन्दा लामो छ"],
+    ["Today is the hottest day", "Aaja sabai bhanda taato din ho", "आज सबै भन्दा तातो दिन हो"],
+    ["Mount Everest is the highest mountain", "Mount Everest sabai bhanda uchcho pahad ho", "माउन्ट एभरेस्ट सबै भन्दा उचो पहाड हो"],
+    ["This shop is the cheapest", "Yo pasal sabai bhanda sasto ho", "यो पसल सबै भन्दा सस्तो हो"],
+    ["He works the hardest", "U sabai bhanda dherai mehnat garchha", "उ सबै भन्दा धेरै मेहनत गर्छ"]
+  ]
+},
+  Directions: [
+  ["North", "Uttar", "उत्तर"],
+  ["South", "Dakshin", "दक्षिण"],
+  ["East", "Purba", "पूर्व"],
+  ["West", "Pashchim", "पश्चिम"],
+  ["Left", "Bayã", "बायाँ"],
+  ["Right", "Dayã", "दायाँ"],
+  ["Straight", "Sidhā", "सिधा"],
+  ["Back", "Pachhāri", "पछाडि"],
+  ["Up", "Mathi", "माथि"],
+  ["Down", "Tala", "तल"],
+  ["Near", "Najik", "नजिक"],
+  ["Far", "Tadhha", "टाढा"],
+  ["Turn", "Murnu", "मर्नु"],
+  ["Across", "Pari", "पारी"],
+  ["Between", "Bichmã", "बीचमा"],
+  ["Around", "Chāripāsã", "चारिपास"],
+  ["Towards", "Tira / Tarpha", "तिर / तर्फ"]
+],
+Colors: [
+  ["Red", "Rato", "रातो"],
+  ["Blue", "Nilo", "नीलो"],
+  ["Green", "Hariyo", "हरियो"],
+  ["Yellow", "Pahelo", "पहेलो"],
+  ["Black", "Kalo", "कालो"],
+  ["White", "Seto", "सेतो"],
+  ["Orange", "Suntalā rang", "सुन्तला रङ"],
+  ["Pink", "Gulābi", "गुलाबी"],
+  ["Purple", "Baigunī", "बैगुनी"],
+  ["Brown", "Khairo", "खैरो"],
+  ["Grey", "Dhusar", "धूसर"],
+  ["Golden", "Sunahari", "सुनहरी"],
+  ["Silver", "Chā̃dī", "चाँदी"]
+],
+Weather: [
+  ["Sunny", "Ghamailo", "घमाइलो"],
+  ["Cloudy", "Badaleko", "बादलएको"],
+  ["Rainy", "Pāni parne", "पानी पर्ने"],
+  ["Windy", "Haawā chaleko", "हावा चलेको"],
+  ["Stormy", "Aandhibheri", "आँधीबेहरी"],
+  ["Snowy", "Him parne", "हिम पर्ने"],
+  ["Foggy", "Kuhiro", "कुहिरो"],
+  ["Hot", "Tātō", "तातो"],
+  ["Cold", "Chiso", "चिसो"],
+  ["Humid", "Adhrata", "आर्द्रता"],
+  ["Dry", "Sukhā", "सुखा"],
+  ["Thunder", "Gajā", "गजाँ"],
+  ["Lightning", "Bijuli", "बिजुली"]
+],
+Fruits_vegetables: [
+  ["Apple", "Syaau", "स्याउ"],
+  ["Banana", "Kera", "केरा"],
+  ["Mango", "Aap", "आँप"],
+  ["Orange", "Suntalā", "सुन्तला"],
+  ["Grapes", "Angur", "अंगुर"],
+  ["Watermelon", "Kharbooja", "खरबुजा"],
+  ["Papaya", "Mewa", "मेवा"],
+  ["Pineapple", "Bhuin katahar", "भुइँ कटहर"],
+  ["Potato", "Aalu", "आलु"],
+  ["Tomato", "Golbheda", "गोलभेडा"],
+  ["Onion", "Pyāz", "प्याज"],
+  ["Carrot", "Gājar", "गाजर"],
+  ["Spinach", "Palungo", "पालुङ्गो"],
+  ["Cabbage", "Bandā", "बन्दा"],
+  ["Cauliflower", "Kaulee", "काउली"],
+  ["Brinjal", "Baignan", "बैगन"],
+  ["Cucumber", "Kakro", "काक्रो"],
+  ["Chili", "Khursānī", "खुर्सानी"],
+  ["Garlic", "Lasun", "लसुन"],
+  ["Ginger", "Aduwa", "अदुवा"]
+],
+
   pronouns: {
   subject: [
     ["I", "Ma", "म"],
@@ -106,6 +233,7 @@ const data = {
     ["Do you have another color?", "Ke tapaaisanga arko rang chha?", "के तपाईंसँग अर्को रंग छ?"],
     ["Where can I pay?", "Ma kaha tirna sakchhu?", "म कहाँ तिर्न सक्छु?"]
   ],
+  
   numbers: [
     ["1", "Ek", "एक"],
     ["2", "Dui", "दुई"],
@@ -625,7 +753,7 @@ present_continuous_tense: [
  "question": {
   "Wh-Question Words": [
     ["What", "Ke", "के"],
-    ["Where", "Kahã", "कहाँ"],
+    ["Where", "Kahã", "कहाँ"],
     ["When", "Kahile", "कहिले"],
     ["Who", "Ko", "को"],
     ["Why", "Kin", "किन"],
@@ -635,7 +763,7 @@ present_continuous_tense: [
   "Yes / No Question Words": [
     ["Are you", "Ke timi", "के तिमी"],
     ["Is he", "Ke u", "के ऊ"],
-    ["Do you", "Ke tapaaĩ", "के तपाईं"]
+    ["Do you", "Ke tapaaĩ", "के तपाईं"]
   ]
 }
 ,
