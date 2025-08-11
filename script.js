@@ -59,8 +59,8 @@ comparative_structures_nepali: {
   ["South", "Dakshin", "दक्षिण"],
   ["East", "Purba", "पूर्व"],
   ["West", "Pashchim", "पश्चिम"],
-  ["Left", "Bayã", "बायाँ"],
-  ["Right", "Dayã", "दायाँ"],
+  ["Left", "Bayã", "बायाँ"],
+  ["Right", "Dayã", "दायाँ"],
   ["Straight", "Sidhā", "सिधा"],
   ["Back", "Pachhāri", "पछाडि"],
   ["Up", "Mathi", "माथि"],
@@ -69,8 +69,8 @@ comparative_structures_nepali: {
   ["Far", "Tadhha", "टाढा"],
   ["Turn", "Murnu", "मर्नु"],
   ["Across", "Pari", "पारी"],
-  ["Between", "Bichmã", "बीचमा"],
-  ["Around", "Chāripāsã", "चारिपास"],
+  ["Between", "Bichmã", "बीचमा"],
+  ["Around", "Chāripāsã", "चारिपास"],
   ["Towards", "Tira / Tarpha", "तिर / तर्फ"]
 ],
 Colors: [
@@ -753,7 +753,7 @@ present_continuous_tense: [
  "question": {
   "Wh-Question Words": [
     ["What", "Ke", "के"],
-    ["Where", "Kahã", "कहाँ"],
+    ["Where", "Kahã", "कहाँ"],
     ["When", "Kahile", "कहिले"],
     ["Who", "Ko", "को"],
     ["Why", "Kin", "किन"],
@@ -763,7 +763,7 @@ present_continuous_tense: [
   "Yes / No Question Words": [
     ["Are you", "Ke timi", "के तिमी"],
     ["Is he", "Ke u", "के ऊ"],
-    ["Do you", "Ke tapaaĩ", "के तपाईं"]
+    ["Do you", "Ke tapaaĩ", "के तपाईं"]
   ]
 }
 ,
