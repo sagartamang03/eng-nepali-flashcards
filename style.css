@@ -1,3 +1,4 @@
+
 /* === Global Reset & Base === */
 body {
         font-family: 'Noto Sans Devanagari', 'Poppins', sans-serif;
@@ -210,6 +211,7 @@ h1 {
 .hidden {
   display: none !important;
 }
+
 
 /* Grammar Vocabulary stays green */
 .topic-button.grammar-topic {
