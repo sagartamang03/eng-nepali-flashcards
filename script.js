@@ -1,77 +1,21 @@
 const data = {
 
-  know_phrases_nepali: [
-  ["I know", "Malai tha chha", "मलाई थाहा छ"],
-  ["You know", "Tapaailai tha chha", "तपाईंलाई थाहा छ"],
-  ["He knows", "Uslai tha chha", "उसलाई थाहा छ"],
-  ["She knows", "Uslai tha chha", "उसलाई थाहा छ"],
-  ["We know", "Hamilai tha chha", "हामीलाई थाहा छ"],
-  ["They know", "Uniharulai tha chha", "उनीहरूलाई थाहा छ"],
-  ["Do you know?", "Ke tapaailai tha chha?", "के तपाईंलाई थाहा छ?"],
-  ["I don’t know", "Malai tha chhaina", "मलाई थाहा छैन"],
-  ["You don’t know", "Tapaailai tha chhaina", "तपाईंलाई थाहा छैन"]
-],
-
-time_phrases_nepali: [
-  ["It is one o'clock", "Ek baje ho", "एक बजे हो"],
-  ["It is two o'clock", "Dui baje ho", "दुई बजे हो"],
-  ["It is three o'clock", "Tin baje ho", "तीन बजे हो"],
-  ["It is four o'clock", "Char baje ho", "चार बजे हो"],
-  ["It is five o'clock", "Paanch baje ho", "पाँच बजे हो"],
-  ["It is six o'clock", "Chha baje ho", "छ बजे हो"],
-  ["It is seven o'clock", "Saat baje ho", "सात बजे हो"],
-  ["It is eight o'clock", "Aath baje ho", "आठ बजे हो"],
-  ["It is nine o'clock", "Nau baje ho", "नौ बजे हो"],
-  ["It is ten o'clock", "Das baje ho", "दश बजे हो"],
-  ["It is eleven o'clock", "Gyaarah baje ho", "एघार बजे हो"],
-  ["It is twelve o'clock", "Baarah baje ho", "बाह्र बजे हो"],
-  ["What time is it?", "Kati baje ho?", "कति बजे हो?"],
-  ["It is half past three", "Sāḍhe tin baje ho", "साढे तीन बजे हो"],
-  ["It is quarter past five", "Sawa paanch baje ho", "सवा पाँच बजे हो"],
-  ["It is quarter to four", "Pau char baje ho", "पाउ चार बजे हो"]
-],
-
-comparative_structures_nepali: {
-  than_phrases: [
-    ["I am taller than you", "Ma tapai bhanda lamcho chu", "म तपाई भन्दा लामो छु"],
-    ["She is smarter than him", "Uni us bhanda bujhuk chha", "उनी उस भन्दा बुझुक छ"],
-    ["This book is better than that", "Yo kitab tyo bhanda ramro chha", "यो किताब त्यो भन्दा राम्रो छ"],
-    ["Today is hotter than yesterday", "Aaja hijobanda taato chha", "आज हिजो भन्दा तातो छ"],
-    ["Your house is bigger than mine", "Tapai ko ghar mero ghar bhanda thulo chha", "तपाईंको घर मेरो घर भन्दा ठूलो छ"],
-    ["I run faster than my friend", "Ma mero saathi bhanda chito daudchhu", "म मेरो साथी भन्दा छिटो दौड्छु"],
-    ["He works harder than before", "U pahile bhanda dherai mehnat garchha", "उ पहिले भन्दा धेरै मेहनत गर्छ"],
-    ["This road is longer than that road", "Yo bato tyo bato bhanda lamcho chha", "यो बाटो त्यो बाटो भन्दा लामो छ"]
-  ],
-
-  the_most_phrases: [
-    ["He is the tallest in the class", "U kakshyama sabai bhanda lamcho chha", "उ कक्षामा सबै भन्दा लामो छ"],
-    ["This is the best movie", "Yo sabai bhanda ramro chalchitra ho", "यो सबै भन्दा राम्रो चलचित्र हो"],
-    ["She is the smartest student", "Uni sabai bhanda bujhuk vidyarthi ho", "उनी सबै भन्दा बुझुक विद्यार्थी हो"],
-    ["This road is the longest", "Yo bato sabai bhanda lamcho chha", "यो बाटो सबै भन्दा लामो छ"],
-    ["Today is the hottest day", "Aaja sabai bhanda taato din ho", "आज सबै भन्दा तातो दिन हो"],
-    ["Mount Everest is the highest mountain", "Mount Everest sabai bhanda uchcho pahad ho", "माउन्ट एभरेस्ट सबै भन्दा उचो पहाड हो"],
-    ["This shop is the cheapest", "Yo pasal sabai bhanda sasto ho", "यो पसल सबै भन्दा सस्तो हो"],
-    ["He works the hardest", "U sabai bhanda dherai mehnat garchha", "उ सबै भन्दा धेरै मेहनत गर्छ"]
-  ]
-},
   Directions: [
   ["North", "Uttar", "उत्तर"],
   ["South", "Dakshin", "दक्षिण"],
   ["East", "Purba", "पूर्व"],
   ["West", "Pashchim", "पश्चिम"],
-  ["Left", "Bayã", "बायाँ"],
-  ["Right", "Dayã", "दायाँ"],
+  ["Left", "Bayã", "बायाँ"],
+  ["Right", "Dayã", "दायाँ"],
   ["Straight", "Sidhā", "सिधा"],
   ["Back", "Pachhāri", "पछाडि"],
   ["Up", "Mathi", "माथि"],
   ["Down", "Tala", "तल"],
   ["Near", "Najik", "नजिक"],
   ["Far", "Tadhha", "टाढा"],
-  ["Turn", "Murnu", "मर्नु"],
-  ["Across", "Pari", "पारी"],
-  ["Between", "Bichmã", "बीचमा"],
-  ["Around", "Chāripāsã", "चारिपास"],
-  ["Towards", "Tira / Tarpha", "तिर / तर्फ"]
+  ["Across", "Paari", "पारी"],
+  ["Between", "Bichmã", "बीचमा"],
+  ["Towards", "Tira", "तिर"]
 ],
 Colors: [
   ["Red", "Rato", "रातो"],
@@ -84,23 +28,18 @@ Colors: [
   ["Pink", "Gulābi", "गुलाबी"],
   ["Purple", "Baigunī", "बैगुनी"],
   ["Brown", "Khairo", "खैरो"],
-  ["Grey", "Dhusar", "धूसर"],
   ["Golden", "Sunahari", "सुनहरी"],
   ["Silver", "Chā̃dī", "चाँदी"]
 ],
 Weather: [
-  ["Sunny", "Ghamailo", "घमाइलो"],
-  ["Cloudy", "Badaleko", "बादलएको"],
-  ["Rainy", "Pāni parne", "पानी पर्ने"],
-  ["Windy", "Haawā chaleko", "हावा चलेको"],
-  ["Stormy", "Aandhibheri", "आँधीबेहरी"],
-  ["Snowy", "Him parne", "हिम पर्ने"],
+  ["Sunny", "Ghaam laageko", "घाम लागेको"],
+  ["Cloudy", "Baadal laageko", "बादल लागेको"],
+  ["Rainy", "Paani ko mausam","पानीको मौसम"],
+  ["Snowy", "hiu pareko mausam", "हिऊँ परेको मौसम"],
   ["Foggy", "Kuhiro", "कुहिरो"],
-  ["Hot", "Tātō", "तातो"],
+  ["Hot", "garmi", "गर्मी"],
   ["Cold", "Chiso", "चिसो"],
-  ["Humid", "Adhrata", "आर्द्रता"],
   ["Dry", "Sukhā", "सुखा"],
-  ["Thunder", "Gajā", "गजाँ"],
   ["Lightning", "Bijuli", "बिजुली"]
 ],
 Fruits_vegetables: [
@@ -110,14 +49,10 @@ Fruits_vegetables: [
   ["Orange", "Suntalā", "सुन्तला"],
   ["Grapes", "Angur", "अंगुर"],
   ["Watermelon", "Kharbooja", "खरबुजा"],
-  ["Papaya", "Mewa", "मेवा"],
-  ["Pineapple", "Bhuin katahar", "भुइँ कटहर"],
   ["Potato", "Aalu", "आलु"],
   ["Tomato", "Golbheda", "गोलभेडा"],
   ["Onion", "Pyāz", "प्याज"],
   ["Carrot", "Gājar", "गाजर"],
-  ["Spinach", "Palungo", "पालुङ्गो"],
-  ["Cabbage", "Bandā", "बन्दा"],
   ["Cauliflower", "Kaulee", "काउली"],
   ["Brinjal", "Baignan", "बैगन"],
   ["Cucumber", "Kakro", "काक्रो"],
@@ -130,10 +65,12 @@ Fruits_vegetables: [
   subject: [
     ["I", "Ma", "म"],
     ["You (informal)", "Timi", "तिमी"],
-    ["You (formal)", "Tapai", "तपाईं"],
-    ["He", "U / Uni", "ऊ / उनी"],
-    ["She", "U / Uni", "ऊ / उनी"],
-    ["It", "Yo / Tyo", "यो / त्यो"],
+    ["You (formal)", "Tapaai", "तपाईं"],
+    ["He/She (informal)", "U / Uni", "ऊ / उनी"],
+        ["He/She (formal)", "Wahaa", "वहाँ"],
+
+   
+    ["this/ that", "Yo / Tyo", "यो / त्यो"],
     ["We", "Hami", "हामी"],
     ["They", "Uniharu / Tiniharu", "उनीहरू / तिनीहरू"]
   ],
@@ -141,99 +78,163 @@ Fruits_vegetables: [
     ["to Me", "Malai", "मलाई"],
     ["to You (informal)", "Timilai", "तिमीलाई"],
     ["to You (formal)", "Tapaailai", "तपाईंलाई"],
-    ["to Him", "Uslai / Unilai", "उसलाई / उनलाई"],
-    ["to Her", "Uslai / Unilai", "उसलाई / उनलाई"],
-    ["to It", "Yaslai / Tyaslai", "यसलाई / त्यसलाई"],
+    ["to Him/Her", "Uslaai", "उसलाई"],
+    ["to Her (semi-formal)", "Unlaai", "उनलाई"],
+    ["to this / that", "Yaslai / Tyaslai", "यसलाई / त्यसलाई"],
     ["to Us", "Haamilai", "हामीलाई"],
     ["to Them", "Uniharulai / Tiniharulai", "उनीहरूलाई / तिनीहरूलाई"]
   ],
   possessive: [
     ["My", "Mero / Mera / Meri", "मेरो / मेरा / मेरी"],
-    ["Your (informal)", "Timiro / Timra / Timri", "तिमीरो / तिम्रा / तिम्री"],
-    ["Your (formal)", "Tapaaiko / Tapaai'ka / Tapaai'ki", "तपाईंको / तपाईंका / तपाईंकी"],
-    ["His", "Uskō / Uska / Uski", "उसको / उसका / उसकी"],
-    ["Her", "Uskō / Uska / Uski", "उसको / उसका / उसकी"],
-    ["Its", "Yesko / Tyasko", "यसको / त्यसको"],
+    ["Your (informal)", "Timro / Timra / Timri", "तिमीरो / तिम्रा / तिम्री"],
+    ["Your (formal)", "Tapaaiko / Tapaaika / Tapaaiki", "तपाईंको / तपाईंका / तपाईंकी"],
+    ["His/Her", "Uskō / Uska / Uski", "उसको / उसका / उसकी"],
+    ["Its/ of that", "Yesko / Tyasko", "यसको / त्यसको"],
     ["Our", "Haamro / Haamra / Haamri", "हाम्रो / हाम्रा / हाम्री"],
     ["Their", "Uniharuko / Tiniharuko", "उनीहरूको / तिनीहरूको"]
   ],
   reflexive: [
-    ["Own (singular masculine)", "Aafno", "आफ्नो"],
-    ["Own (singular feminine)", "Aafni", "आफ्नी"],
-    ["Own (plural masculine or mixed)", "Aafna", "आफ्ना"],
-    ["Own (plural feminine)", "Aafniharu", "आफ्नीहरू"],
-    ["By oneself / Automatically", "Aafnai / Aafai", "आफ्नै / आफै"]
+    ["One's own", "Aafno", "आफ्नो"],
+    ["By oneself / Automatically", "Aafai", "आफै"]
   ],
   unspecified: [
-    ["Someone", "Kunai vyakti / Kōhī", "कुनै व्यक्ति / कोही"],
-    ["Something", "Kehi / Kunai kura", "केही / कुनै कुरा"],
-    ["Anyone", "Junsukai vyakti / Kōhī pani", "जुनसुकै व्यक्ति / कोही पनि"],
-    ["Anything", "Kehi pani / Kunai pani kura", "केही पनि / कुनै पनि कुरा"]
+    ["Someone", "Kōhī", "कोही"],
+    ["Something", "Kehi / Kunai", "केही / कुनै "],
+    ["Anyone", "Kōhī pani", "कोही पनि"],
+    ["Anything", "Kehi pani / Kunai pani", "केही पनि / कुनै पनि"]
   ]
 },
-  greetingsIntroductions: [
-    ["Hello / Bye", "Namaste", "नमस्ते"],
+  greetings: [
+    ["Hello", "Namaste", "नमस्ते"],
+    ["Good morning", "Subha bihana", "शुभ बिहान"],
+    ["Good afternoon", "Subha din", "शुभ दिन"],
+    ["Good evening", "Subha saanjh", "शुभ साँझ"],
     ["How are you?", "Tapaai kasto hunuhunchha?", "तपाईं कस्तो हुनुहुन्छ?"],
-    ["I am fine", "Ma sanchai chhu", "म सन्चै छु"],
-    ["Thank you", "Dhanyabaad", "धन्यवाद"],
-    ["See you soon", "Chittai bhetaulaa", "छिट्टै भेटौंला"],
-    ["See you again", "Feri bhetaulaa", "फेरि भेटौंला"],
-    ["What is your name?", "Tapaaiko naam ke ho?", "तपाईंको नाम के हो?"],
-    ["My name is...", "Mero naam ... ho", "मेरो नाम ... हो"],
-    ["Where do you live?", "tapaai kahaa basnuhunchha?", "तपाईं कहाँ बस्नुहुन्छ?"],
-    ["I live in...", "Ma ... maa baschhu", "म ... मा बस्छु"],
-    ["What work do you do?", "Tapaai ke kaam garnuhunchha?", "तपाईं के काम गर्नुहुन्छ?"],
-    ["I am ...", "Ma ... ho", "म ... हुँ"],
-    ["This is my friend", "Yo mero saathi ho", "यो मेरो साथी हो"],
-    ["This is ...", "Yo ... ho", "यो ... हो"]
+    ["I’m fine", "Ma sanchai chhu", "म सन्चै छु"],
+    ["Nice to meet you", "Tapaailaai bhetera khusi laagyo", "तपाईंलाई भेटेर खुशी लाग्यो"]
   ],
-  routine: [
-    ["I wake up at 6", "Ma chha baje uthchhu", "म छ बजे उठ्छु"],
-    ["I brush my teeth", "Ma mero daat majhchhu", "म मेरो दाँत माझ्छु"],
-    ["I eat food", "Ma khaanaa khaanchhu", "म खाना खान्छु"],
-    ["I go to work", "Ma kaam maa jaanchhu", "म काममा जान्छु"],
-    ["I study in the evening", "Ma beluka padhchhu", "म बेलुका पढ्छु"],
-    ["I make food", "Ma khana banaauchhu", "म खाना बनाउँछु"],
-    ["I bathe", "Ma nuhanchhu", "म नुहाउँछु"],
-    ["I sleep at 10", "Ma 10 baje sutchhu", "म दस बजे सुत्छु"],
-    ["I relax", "Ma aaram garchhu", "म घरमा आराम गर्छु"],
-    ["I read books", "Ma kitaabharu padchhu", "म किताबहरू पढ्छु"]
+
+  introductions: [
+    ["What’s your name?", "Tapaai ko naam ke ho?", "तपाईंको नाम के हो?"],
+    ["My name is Sagar", "Mero naam Sagar ho", "मेरो नाम सागर हो"],
+    ["Where are you from?", "Tapaai kahaa bata hunuhunchha?", "तपाईं कहाँबाट हुनुहुन्छ?"],
+    ["I am from Nepal", "Ma Nepal bata ho", "म नेपालबाट हो"],
+    ["Nice to meet you", "Bhetera khusi laagyo", "भेटेर खुशी लाग्यो"]
   ],
-  food: [
-    ["I'm hungry", "Malai bhok laagyo", "मलाई भोक लाग्यो"],
-    ["I'm thirsty", "Malai tirkhaa laagyo", "मलाई तिर्खा लाग्यो"],
-    ["I want water", "Malai paani chahinchha", "मलाई पानी चाहिन्छ"],
-    ["Do you have tea?", "Tapaai sanga chiya chha?", "तपाईं संग चिया छ?"],
-    ["This is delicious", "Yo mitho chha", "यो मिठो छ"],
-    ["I like spicy food", "Malai piro khana manparchha", "मलाई पिरो खाना मनपर्छ"],
-    ["Vegetarian", "Shaakahari", "शाकाहारी"],
-    ["Meat", "Maasu", "मासु"],
-    ["Breakfast", "Bihanko khaja", "बिहानको खाजा"],
-    ["Dinner", "Raatko khana", "रातको खाना"]
+
+  feelings: [
+    ["I’m happy", "Ma khusi chhu", "म खुशी छु"],
+    ["I’m sad", "Ma dukhi chhu", "म दुखी छु"],
+    ["I’m tired", "Ma thakeko chhu", "म थाकेको छु"],
+    ["I’m angry", "Ma risayeko chhu", "म रिसाएको छु"],
+    ["I’m hungry", "Ma bhok lagyo", "मलाई भोक लागेको छ"]
   ],
-  travel: [
-    ["Where is the bus station?", "Bus station kaha chha?", "बस स्टेशन कहाँ छ?"],
-    ["How much is the ticket?", "Ticket kati ko ho?", "टिकट कतिको हो?"],
-    ["I need a taxi", "Malai taxi chahinchha", "मलाई ट्याक्सी चाहिन्छ"],
-    ["I want to go to...", "Ma ... jaana chaahanchhu", "म ... जान चाहन्छु"],
-    ["Is it far?", "Yo taadha chha?", "यो टाढा छ?"],
-    ["Please stop here", "Kripaya yahaa roknu hos", "कृपया यहाँ रोक्नुहोस्"],
-    ["How long will it take?", "Kati samaya lagchha?", "कति समय लाग्छ?"],
-    ["I am lost", "Ma haraye", "म हराएँ"],
-    ["Can you help me?", "Tapaai malai madat garna saknuhunchha?", "तपाईं मलाई मद्दत गर्न सक्नुहुन्छ?"],
-    ["I didn’t understand", "Maile bujhina", "मैले बुझिन"],
-    ["I understood", "Maile bujhe", "मैले बुझें"]
+
+  dailyRoutine: [
+    ["I wake up at 7", "Ma saat baje uṭchhu", "म सात बजे उठ्छु"],
+    ["I brush my teeth", "Ma daant maajchhu", "म दाँत माझ्छु"],
+    ["I eat breakfast", "Ma bihaana khanchhu", "म बिहान खान्छु"],
+    ["I go to work", "Ma kaam maa janchhu", "म काममा जान्छु"],
+    ["I sleep at 10", "Ma das baje sutchhu", "म दस बजे सुत्छु"]
   ],
+
+  askingQuestions: [
+    ["What is this?", "Yo ke ho?", "यो के हो?"],
+    ["Where is it?", "Yo kahaa chha?", "यो कहाँ छ?"],
+    ["When will you come?", "Tapaai kahile aunu hunchha?", "तपाईं कहिले आउनुहुन्छ?"],
+    ["Who is he?", "Uha ko ho?", "उहाँ को हो?"],
+    ["How much is it?", "Yo kati ho?", "यो कति हो?"]
+  ],
+
+  opinions: [
+    ["I think so", "Ma sochchhu tyastai", "म सोच्छु त्यस्तै"],
+    ["I don’t think so", "Ma tyastai sochdina", "म त्यस्तै सोच्दिन"],
+    ["In my opinion", "Mero bichaarmaa", "मेरो विचारमा"],
+    ["That’s true", "Yo sahi ho", "यो सही हो"],
+    ["You’re right", "Tapaai thik hunuhunchha", "तपाईं ठीक हुनुहुन्छ"]
+  ],
+
+  likesDislikes: [
+    ["I like it", "Malai yo manparchha", "मलाई यो मन पर्छ"],
+    ["I don’t like it", "Malai yo manpardaina", "मलाई यो मन पर्दैन"],
+    ["I love music", "Malai sangeet manparchha", "मलाई संगीत मन पर्छ"],
+    ["I hate waiting", "Malaai parkhanu manpardaina", "मलाई पर्खनु मन पर्दैन"],
+    ["Do you like coffee?", "Ke tapaailaai coffee manparchha?", "के तपाईंलाई कफी मन पर्छ?"]
+  ],
+
+  askingHelp: [
+    ["Can you help me?", "Ke tapaai malai madat garnu hunchha?", "के तपाईं मलाई मद्दत गर्नुहुन्छ?"],
+    ["Please help me", "Kripaya malai madat garnus", "कृपया मलाई मद्दत गर्नुहोस्"],
+    ["I need help", "Malai madat chhaahinchha", "मलाई मद्दत चाहिन्छ"],
+    ["Don’t worry", "Chinta nagarnus", "चिन्ता नगर्नुस"],
+    ["That’s okay", "Thik chha", "ठिक छ"]
+  ],
+
+  directions: [
+    ["Where is the bus stop?", "Bus stop kahaa chha?", "बस स्टप कहाँ छ?"],
+    ["Go straight", "Sidha jaanus", "सिधा जानुस"],
+    ["Turn left", "Bayãa tira moḍnus", "बायाँ तिर मोड्नुस"],
+    ["Turn right", "Dahãa tira moḍnus", "दायाँ तिर मोड्नुस"],
+    ["It’s nearby", "Yo najikai chha", "यो नजिकै छ"]
+  ],
+
   shopping: [
-    ["How much is this?", "Yesko kati parchha?", "यसको कति पर्छ?"],
-    ["It's too expensive", "Yo dherai mahango chha", "यो धेरै महँगो छ"],
-    ["Lower the price", "Mulya ghataunus", "मूल्य घटाउनुहोस्"],
-    ["I will take it", "Ma yo linchhu", "म यो लिन्छु"],
-    ["I'm just looking", "Ma herdaimaatra chhu", "म हेर्दैमात्र छु"],
-    ["Do you have another color?", "Ke tapaaisanga arko rang chha?", "के तपाईंसँग अर्को रंग छ?"],
-    ["Where can I pay?", "Ma kaha tirna sakchhu?", "म कहाँ तिर्न सक्छु?"]
+    ["How much is this?", "Yo kati ho?", "यो कति हो?"],
+    ["It’s too expensive", "Yo dherai mahango chha", "यो धेरै महँगो छ"],
+    ["Can you make it cheaper?", "Sasto dinu saknuhunchha?", "सस्तो दिन सक्नुहुन्छ?"],
+    ["I’ll take this", "Ma yo lanchhu", "म यो लिन्छु"],
+    ["I’m just looking", "Ma heriraheko chhu", "म हेइरहेको छु"]
   ],
-  
+
+  restaurant: [
+    ["I’m hungry", "Ma bhok lagyo", "मलाई भोक लागेको छ"],
+    ["Can I see the menu?", "Menu herna sakchhu?", "मेनु हेर्न सक्छु?"],
+    ["I’d like some water", "Malai ali paani dinus", "मलाई अलि पानी दिनुस"],
+    ["This is delicious", "Yo mitho chha", "यो मिठो छ"],
+    ["Bill please", "Hisab dinus", "हिसाब दिनुस"]
+  ],
+
+  travel: [
+    ["Where are you going?", "Tapaai kahaa jaanu hunchha?", "तपाईं कहाँ जानुहुन्छ?"],
+    ["I’m going to Kathmandu", "Ma Kathmandu jaanchhu", "म काठमाडौँ जान्छु"],
+    ["How far is it?", "Kati tadha chha?", "कति टाढा छ?"],
+    ["Is it safe?", "Yo surakshit chha?", "यो सुरक्षित छ?"],
+    ["I need a ticket", "Malai ticket chaahinchha", "मलाई टिकट चाहिन्छ"]
+  ],
+
+  health: [
+    ["I’m sick", "Ma birami chhu", "म बिरामी छु"],
+    ["I have a headache", "Malai tauko dukhyo", "मलाई टाउको दुख्यो"],
+    ["I need a doctor", "Malai doctor chaahinchha", "मलाई डाक्टर चाहिन्छ"],
+    ["Take rest", "Bishraam garnus", "विश्राम गर्नुस"],
+    ["Get well soon", "Chhito nikko hunuhos", "छिटो निको हुनुस"]
+  ],
+
+  weather: [
+    ["It’s hot today", "Aaja taato chha", "आज तातो छ"],
+    ["It’s cold", "Jado chha", "जाडो छ"],
+    ["It’s raining", "Pani parchha", "पानी पर्छ"],
+    ["It’s sunny", "Ghaam chha", "घाम छ"],
+    ["It’s windy", "Hawa chha", "हावा छ"]
+  ],
+
+  smallTalk: [
+    ["How’s your day?", "Tapaai ko din kasto chha?", "तपाईंको दिन कस्तो छ?"],
+    ["What do you do?", "Tapaai ke garnuhunchha?", "तपाईं के गर्नुहुन्छ?"],
+    ["That’s interesting", "Yo ramailo chha", "यो रमाइलो छ"],
+    ["Really?", "Sachi?", "साँचि?"],
+    ["I see", "Thik chha, bujhe", "ठिक छ, बुझे"]
+  ],
+
+  goodbyes: [
+    ["Goodbye", "Bidaa dinus", "बिदा दिनुस"],
+    ["See you soon", "Bhetaula chhito", "भेटौला छिटो"],
+    ["Take care", "Khyal garnus", "ख्याल गर्नुस"],
+    ["Have a nice day", "Ramro din hos", "राम्रॊ दिन होस्"],
+    ["Good night", "Subha raatri", "शुभ रात्री"]
+  ]
+,
+
   numbers: [
     ["1", "Ek", "एक"],
     ["2", "Dui", "दुई"],
@@ -260,38 +261,7 @@ Fruits_vegetables: [
     ["300", "Tin saye", "तीन सय"],
     ["400", "Chaar saye", "चार सय"]
   ],
-  family: [
-    // --- Original Vocabulary ---
-    ["Family", "Pariwaar", "परिवार"],
-    ["Father", "Buva", "बुवा"],
-    ["Mother", "Aama", "आमा"],
-    ["Brother (elder/younger)", "Daai / Bhaai", "दाइ / भाइ"],
-    ["Sister (elder/younger)", "Didi / Bahini", "दिदी / बहिनी"],
-    ["Husband", "Shrimaan", "श्रीमान्"],
-    ["Wife", "Shrimati", "श्रीमती"],
-    ["Son", "Chhora", "छोरा"],
-    ["Daughter", "Chhori", "छोरी"],
-    // --- New Phrases ---
-    ["This is my father.", "Yo mero buva hunuhunchha.", "यो मेरो बुवा हुनुहुन्छ।"],
-    ["This is my mother.", "Yo mero aama hunuhunchha.", "यो मेरो आमा हुनुहुन्छ।"],
-    ["I have one brother.", "Mero ekjana bhaai chha.", "मेरो एकजना भाइ छ।"],
-    ["I have two sisters.", "Mero dui jana didi/bahini chhan.", "मेरो दुई जना दिदी/बहिनी छन्।"],
-    ["Do you have siblings?", "Tapainko daaju-bhaai, didi-bahini chhan?", "तपाईंको दाजु-भाइ, दिदी-बहिनी छन्?"],
-    ["I live with my family.", "Ma mero pariwaar sanga baschhu.", "म मेरो परिवारसँग बस्छु।"],
-    ["My family is small.", "Mero pariwaar saano chha.", "मेरो परिवार सानो छ।"],
-    ["What is your father's name?", "Tapainko buva ko naam ke ho?", "तपाईंको बुवाको नाम के हो?"],
-    ["My mother's name is...", "Mero aama ko naam ... ho.", "मेरी आमाको नाम ... हो।"]
-  ],
 
-  health: [
-    ["I feel sick", "Malai sancho chhaina", "मलाई सन्चो छैन"],
-    ["I need a doctor", "Malai doctor chahiyo", "मलाई डाक्टर चाहियो"],
-    ["Where is the hospital?", "Aspatal kaha chha?", "अस्पताल कहाँ छ?"],
-    ["Help!", "Madat garnus!", "मदत गर्नुस!"],
-    ["Call the police", "Prahari lai bolaunus", "प्रहरीलाई बोलाउनुस्"],
-    ["It hurts here", "Yaha dukchha", "यहाँ दुख्छ"],
-    ["I have a headache", "Mero tauko dukhyo", "मेरो टाउको दुख्यो"]
-  ],
   daysAndTime: [
     ["What time is it?", "Ahile kati bajyo?", "अहिले कति बज्यो?"],
     ["What day is it today?", "Aaja ke baar ho?", "आज के बार हो?"],
@@ -306,194 +276,38 @@ Fruits_vegetables: [
     ["Today", "Aaja", "आज"],
     ["Tomorrow", "Bholi", "भोलि"]
   ],
-  weather: [
-    ["How's the weather?", "Aaja ko mausam kasto chha?", "आजको मौसम कस्तो छ?"],
-    ["It is sunny", "Gham laageko chha", "घाम लागेको छ"],
-    ["It is raining", "Paani pariraheko chha", "पानी परिरहेको छ"],
-    ["It is cold", "Jado chha", "जाडो छ"],
-    ["It is hot", "Garmi chha", "गर्मी छ"],
-    ["It is cloudy", "Baadal laageko chha", "बादल लागेको छ"]
-  ],
 
-  hobbies: [
-    ["What are your hobbies?", "Tapaaiko shauk ke ke ho?", "तपाईंको शौक के के हो?"],
-    ["I like reading", "Malai padhna man parchha", "मलाई पढ्न मन पर्छ"],
-    ["I like music", "Malai sangeet man parchha", "मलाई संगीत मन पर्छ"],
-    ["I enjoy traveling", "Malai ghumna man parchha", "मलाई घुम्न मन पर्छ"],
-    ["I play football", "Ma football khelchhu", "म फुटबल खेल्छु"]
-  ],
-
-  emotions: [
-    ["How are you feeling?", "Tapai lai kasto lagiraheko chha?", "तपाईंलाई कस्तो लागिरहेको छ?"],
-    ["I am happy", "Ma khushi chhu", "म खुसी छु"],
-    ["I am sad", "Ma dukhi chhu", "म दुखी छु"],
-    ["I am tired", "Ma thakeko chhu", "म थाकेको छु"],
-    ["I am excited", "Ma utshahit chhu", "म उत्साहित छु"]
-  ],
-
-wantSentences: [
-  // Affirmative Sentences
-  ["I want tea.", "Malai chiya chaahinchha.", "मलाई चिया चाहिन्छ।"],
-  ["She wants to dance.", "Uni naachna chaahanchhin.", "उनी नाच्न चाहन्छिन्"],
-  ["They want to go home.", "Uniharu ghar jaana chaahanchhan.", "उनीहरू घर जान चाहन्छन्।"],
-
-  // Negative Sentences
-  ["I don't want food.", "Malai khaana chahindaina.", "मलाई खाना चाहिँदैन।"],
-  ["He doesn't want to sleep.", "U sutna chaahdaina.", "ऊ सुत्न चाहँदैन।"],
-  ["They don't want to study.", "Uniharu padhna chaahadainan.", "उनीहरू पढ्न चाहँदैनन्।"],
-
-  // Yes/No Questions
-  ["Do you want coffee?", "Tapaailai coffee chaahinchha?", "तपाईलाई coffee चाहिन्छ?"],
-  ["Does she want to come?", "Ke uni aauna chaahanchhin?", "के उनी आउन चाहन्छिन्?"],
-  ["Do they want water?", "Ke uniharulaai paani chaahinchha?", "के उनीहरूलाई पानी चाहिन्छ?"],
-
-  // Wh- Questions
-  ["What do you want?", "Tapaailai ke chaahinchha?", "तपाईलाई के चाहिन्छ?"],
-  ["Why do you want to go?", "Tapaai kina jaana chaahanuhunchha?", "तपाई किन जान चाहनुहुन्छ?"],
-  ["Who do you want to meet?", "Tapaai kaslai bhetna chaahanu hunchha?", "तपाई कसलाई भेट्न चाहनुहुन्छ?"]
-],
-
-haveSentences: [
-  // Affirmative
-  ["I have a book.", "Ma sanga ek kitaab chha.", "मसँग एक किताब छ।"],
-  ["She has a pen.", "Uni sanga ek kalam chha.", "उनीसँग एक कलम छ।"],
-  ["They have a house.", "Uniharuko ghar chha.", "उनहरूको घर छ।"],
-
-  // Negative
-  ["I don't have a car.", "Ma sanga gaadi chhaina.", "मसँग गाडी छैन।"],
-  ["He doesn't have time.", "U sanga samaya chhaina.", "उसँग समय छैन।"],
-  ["They don't have money.", "Uniharu sanga paisa chhaina.", "उनीहरूसँग पैसा छैन।"],
-
-  // Yes/No Questions
-  ["Do you have a phone?", "Tapaai sanga phone chha?", "तपाईसँग फोन छ?"],
-  ["Does she have a job?", "Ke uni sanga sanga kaam chha?", "के उनीसँग काम छ?"],
-  ["Do they have tickets?", "Ke uniharusanga ticket chha?", "के उनीहरूसँग टिकट छ?"],
-
-  // Wh- Questions
-  ["What do you have?", "Tapaai sanga ke chha?", "तपाईसँग के छ?"],
-  ["Who has the key?", "Ko sanga chaabi chha?", "चाबी कोसँग छ?"],
-  ["Why do you have this?", "Tapaai sanga yo kina chha?", "तपाईसँग यो किन छ?"]
-],
-
-
-  likeSentences: [
-    ["I like tea.", "Malai chiya manparchha.", "मलाई चिया मनपर्छ।"],
-    ["She likes to read books.", "Uunilai kitaab padhna manparchha.", "उनलाई किताब पढ्न मनपर्छ।"],
-    ["They don't like movies.", "Uनीहरूलाई film manpardaina.", "उनीहरूलाई फिल्म मनपर्दैन।"],
-    ["Do you like spicy food?", "Ke tapaailai piro khana manparchha?", "के तपाईंलाई पिरो खाना मनपर्छ?"],
-    ["What do you like?", "Tapaailai ke manparchha.", "तपाईंलाई के मनपर्छ?"]
-  ], // <-- COMMA HERE
-
-  needSentences: [
-    // I noticed a "" in your code, which is not valid JavaScript. I have removed it.
-    ["I need water.", "Malai paani chahinchha.", "मलाई पानी चाहिन्छ।"],
-    ["She needs help.", "Uunilai sahayog chahinchha.", "उनलाई सहयोग चाहिन्छ।"],
-    ["They need a taxi.", "Uनीहरूलाई taxi chahinchha.", "उनीहरूलाई ट्याक्सी चाहिन्छ।"],
-    ["I don't need anything.", "Malai kehi chahidaaina.", "मलाई केही चाहिँदैन।"],
-    ["Do you need anything?", "Tapaailai kehi chahinchha?", "तपाईंलाई केही चाहिन्छ?"],
-    ["What do you need?", "Tapaailai ke chahinchha?", "तपाईंलाई के चाहिन्छ?"]
-  ], // <-- COMMA HERE
-
-  canSentences: [
-    ["I can speak Nepali.", "Ma Nepali bolna sakchhu.", "म नेपाली बोल्न सक्छु।"],
-    ["She can swim.", "Uuni paudina sakchin.", "उनी पौडिन सक्छिन्।"],
-    ["They can't come today.", "Uनीहरू aaja auna sakdainan.", "उनीहरू आज आउन सक्दैनन्।"],
-    ["Can you help me?", "Ke tapai malai madat garna saknuhunchha?", "के तपाईं मलाई मद्दत गर्न सक्नुहुन्छ?"],
-    ["Where can I pay?", "Ma kaha tirna sakchhu?", "म कहाँ तिर्न सक्छु?"],
-    ["What can you do?", "Tapai ke garna saknuhunchha?", "तपाईं के गर्न सक्नुहुन्छ?"]
-  ], // <-- COMMA HERE
-
-  shouldHaveTo: [
-    ["You should rest.", "Tapaile aaram garnuparchha.", "तपाईंले आराम गर्नुपर्छ।"],
-    ["I have to go.", "Ma jaanu parchha.", "म जानु पर्छ।"],
-    ["She needs to study.", "Uunle padhnu parchha.", "उनले पढ्नु पर्छ।"],
-    ["We have to work.", "Haamile kaam garnu parchha.", "हामीले काम गर्नु पर्छ।"],
-    ["You should not worry.", "Tapaile chinta garnu hudaina.", "तपाईंले चिन्ता गर्नु हुँदैन।"],
-    ["What should I do?", "Maile ke garnu parchha?", "मैले के गर्नु पर्छ?"]
-  ], // <-- COMMA HERE
-
-  Commands: [
-    ["Come here.", "Yahaa aaunus.", "यहाँ आउनुस्।"],
-    ["Go there.", "Tyahaa jaanus.", "त्यहाँ जानुस्।"],
-    ["Listen carefully.", "Dhyaan diyera sunnus.", "ध्यान दिएर सुन्नुस्।"],
-    ["Please stop here.", "Kripaya yahaa roknu hos.", "कृपया यहाँ रोक्नुहोस्।"],
-    ["Speak slowly.", "Bistaarai bolnus.", "बिस्तारै बोल्नुस्।"],
-    ["Give me that.", "Malai tyo dinus.", "मलाई त्यो दिनुस्।"],
-    ["Don't do that.", "Tyo nagarnus.", "त्यो नगर्नुस्।"]
-  ],
-
-"verbs": {
-  "movement": [
+"verbs": [
     ["To go", "Jāne", "जानु"],
     ["To come", "Aaune", "आउनु"],
     ["To walk", "Hidnu", "हिँड्नु"],
     ["To run", "Dauranu", "दौडनु"],
-    ["To live", "Basnu", "बस्नु"]
-  ],
-  "senses": [
+    ["To live", "Basnu", "बस्नु"],
     ["To see", "Herne", "हेर्नु"],
     ["To hear", "Sunnu", "सुन्नु"],
     ["To eat", "Khaanu", "खानु"],
     ["To drink", "Pinu", "पिउनु"],
-    ["To smell", "Sungnu", "सुँग्नु"]
-  ],
-  "communication": [
+    ["To smell", "Sungnu", "सुँग्नु"],
     ["To speak", "Bholnu", "भोल्नु"],
     ["To write", "Lekhnuhos", "लेख्नुहोस्"],
     ["To read", "Padhna", "पढ्नु"],
     ["To listen", "Sunnu", "सुन्नु"],
-    ["To tell", "Bhana", "भन"]
-  ],
-  "physicalActions": [
+    ["To tell", "Bhana", "भन"],
     ["To make/do", "Garnu", "गर्नु"],
     ["To take", "Linu", "लिनु"],
     ["To give", "Dinu", "दिनु"],
     ["To open", "Kholnu", "खोल्नु"],
-    ["To close", "Band garnu", "बन्द गर्नु"]
-  ],
-  "dailyActivities": [
+    ["To close", "Band garnu", "बन्द गर्नु"],
     ["To sleep", "Sutnu", "सुत्नु"],
     ["To wake up", "Uthnu", "उठ्नु"],
     ["To bathe", "Nahāunu", "नुहाउनु"],
     ["To cook", "Pakasnu", "पाकाउनु"],
     ["To study", "Padnu", "पढ्नु"]
-  ]
-},
+  ],
 
-    Pronouns: [
-  ["I am happy", "ma khusi chhu", "म खुसी छु"],
-  ["I am a student", "ma bidyarthi ho", "म विद्यार्थी हो"],
 
-  ["You are (semi-formal) happy", "timi khusi chhau", "तिमी खुसी छौ"],
-  ["You are (semi-formal) a student", "timi bidyarthi hau", "तिमी विद्यार्थी हौ"],
 
-  ["You are (formal) happy", "tapai khusi hunuhunchha", "तपाईं खुसी हुनुहुन्छ"],
-  ["You are (formal) a student", "tapai bidyarthi hunuhunchha", "तपाईं विद्यार्थी हुनुहुन्छ"],
-
-  ["He/She is (informal) happy", "uha khusi chha", "उ खुसी छ"],
-  ["He/She is (informal) a student", "uha bidyarthi ho", "उ विद्यार्थी हो"],
-
-  ["He/She is (formal) happy", "wahaa khusi hunuhunchha", "उहाँ खुसी हुनुहुन्छ"],
-  ["He/She is (formal) a student", "wahaa bidyarthi hunuhunchha", "उहाँ विद्यार्थी हुनुहुन्छ"],
-
-  ["We are happy", "haami khusi chhaun", "हामी खुसी छौं"],
-  ["We are students", "haami bidyarthi hau", "हामी विद्यार्थी हौं"],
-
-  ["You all are (semi-formal) happy", "timi haru khusi chhau", "तिमीहरू खुसी छौ"],
-  ["You all are (semi-formal) students", "timi haru bidyarthi hau", "तिमीहरू विद्यार्थी हौ"],
-
-  ["You all are (formal) happy", "tapai haru khusi hunuhunchha", "तपाईंहरू खुसी हुनुहुन्छ"],
-  ["You all are (formal) students", "tapai haru bidyarthi hunuhunchha", "तपाईंहरू विद्यार्थी हुनुहुन्छ"],
-
-  ["They are (informal) happy", "uni haru khusi chhan", "उनीहरू खुसी छन्"],
-  ["They are (informal) students", "uni haru bidyarthi hun", "उनीहरू विद्यार्थी हुन्"],
-
-  ["They are (formal) happy", "wahaa haru khusi hunuhunchha", "उहाँहरू खुसी हुनुहुन्छ"],
-  ["They are (formal) students", "wahaa haru bidyarthi hunuhunchha", "उहाँहरू विद्यार्थी हुनुहुन्छ"],
-],
-
-"nouns": {
-  "Household Items": [
+"nouns": [
     ["House", "Ghar", "घर"],
     ["Chair", "Kursi", "कुर्सी"],
     ["Table", "Mez", "मेज"],
@@ -501,9 +315,7 @@ haveSentences: [
     ["Window", "Jhyālo", "झ्याल"],
     ["Bed", "Palang", "पलङ"],
     ["Fan", "Pankho", "पंखा"],
-    ["Light", "Batti", "बत्ती"]
-  ],
-  "School Supplies": [
+    ["Light", "Batti", "बत्ती"],
     ["Book", "Kitāb", "किताब"],
     ["Pen", "Kalam", "कलम"],
     ["Pencil", "Pencil", "पेंसिल"],
@@ -511,9 +323,7 @@ haveSentences: [
     ["Eraser", "Rubber", "रबर"],
     ["Bag", "Bāg / Basta", "ब्याग / बस्ता"],
     ["Board", "Board", "बोर्ड"],
-    ["Marker", "Marker", "मार्कर"]
-  ],
-  "Essentials": [
+    ["Marker", "Marker", "मार्कर"],
     ["Water", "Pāni", "पानी"],
     ["Food", "Khānā", "खाना"],
     ["Milk", "Doodh", "दूध"],
@@ -521,9 +331,7 @@ haveSentences: [
     ["Salt", "Namak", "नून"],
     ["Sugar", "Chini", "चिनी"],
     ["Oil", "Tel", "तेल"],
-    ["Rice", "Bhat / Chāwal", "भात / चामल"]
-  ],
-  "People": [
+    ["Rice", "Bhat / Chāwal", "भात / चामल"],
     ["Teacher", "Adhyāpak", "अध्यापक"],
     ["Student", "Chhātra", "छात्र"],
     ["Mother", "Aama", "आमा"],
@@ -532,179 +340,74 @@ haveSentences: [
     ["Sister", "Didi", "दिदी"],
     ["Friend", "Mitra", "मित्र"],
     ["Child", "Bālachha", "बालक"]
-  ]
-},
+  ],
 
- "adjectives": {
-  "size": [
+ "adjectives":[
     ["Big", "Thulo", "ठूलो"],
     ["Small", "Sano", "सानो"],
     ["Tall", "Lamo", "लामो"],
     ["Short", "Sano", "सानो"],
-    ["Huge", "Dairo Thulo", "धेरै ठूलो"]
-  ],
-  "appearance": [
+    ["Huge", "Dairo Thulo", "धेरै ठूलो"],
     ["Beautiful", "Ramro", "राम्रो"],
     ["Ugly", "Kharāb", "खराब"],
     ["Clean", "Saphā", "सफा"],
     ["Dirty", "Fāṅgliyo", "फाङ्ग्लियो"],
-    ["Smart", "Bujhdār", "बुझदार"]
-  ],
-  "temperature": [
+    ["Smart", "Bujhdār", "बुझदार"],
     ["Hot", "Tato", "तातो"],
     ["Cold", "Chiso", "चिसो"],
     ["Warm", "Naram", "नरम"],
     ["Cool", "Thando", "ठंडो"],
-    ["Freezing", "Jamdai", "जम्दै"]
-  ],
-  "emotions": [
+    ["Freezing", "Jamdai", "जम्दै"],
     ["Happy", "Khusi", "खुसी"],
     ["Sad", "Dukhi", "दुखी"],
     ["Angry", "Risālo", "रिसालो"],
     ["Excited", "Utsahit", "उत्साहित"],
-    ["Scared", "Darāyeko", "डराएको"]
-  ],
-  "speed": [
+    ["Scared", "Darāyeko", "डराएको"],
     ["Fast", "Chito", "छिटो"],
     ["Slow", "Bistārāi", "बिस्तारै"],
     ["Quick", "Chito", "छिटो"],
     ["Speedy", "Tiwro", "तीव्र"],
     ["Sluggish", "Sust", "सुस्त"]
-  ]
-}
-,
+  ],
 
-"adverbs": {
-  "manner": [
+"adverbs":[
     ["Quickly", "Chito", "छिटो"],
     ["Slowly", "Bistārāi", "बिस्तारै"],
-    ["Carefully", "Savarī", "सावधानी"],
+    ["Carefully", "dhyaan diera", "ध्यान दिएर"],
     ["Loudly", "Jorle", "जोरले"],
-    ["Silently", "Chupchap", "चुपचाप"]
-  ],
-  "frequency": [
+    ["Silently", "Chupchap", "चुपचाप"],
     ["Always", "Sadhai", "सधैं"],
     ["Never", "Kabhī pani hoina", "कहिले पनि होइन"],
     ["Often", "Prayaḥ", "प्रायः"],
-    ["Sometimes", "Kabhī-kabhī", "कहिले कहिले"],
-    ["Rarely", "Dherai dherai hoina", "धेरै धेरै होइन"]
-  ],
-  "time": [
+    ["Sometimes", "Kabhī-kaahi", "कहिले काही"],
     ["Today", "Aaja", "आज"],
     ["Yesterday", "Hijo", "हिजो"],
     ["Tomorrow", "Bholi", "भोली"],
     ["Now", "Ahile", "अहिले"],
     ["Later", "Pachi", "पछि"]
-  ]
-}
-,
-
-present_simple_tense: [
-  // I
-  ["I eat rice", "ma bhat khanchhu", "म भात खान्छु"],
-  ["I go home", "ma ghar janchhu", "म घर जान्छु"],
-
-  // You (semi-formal)
-  ["You eat rice (semi-formal)", "timi bhat khauchhau", "तिमी भात खाउँछौ"],
-  ["You go home (semi-formal)", "timi ghar janchhau", "तिमी घर जान्छौ"],
-
-  // You (formal)
-  ["You eat rice (formal)", "tapai bhat khanuhunchha", "तपाईं भात खानुहुन्छ"],
-  ["You go home (formal)", "tapai ghar januhunchha", "तपाईं घर जानुहुन्छ"],
-
-  // He/She (informal)
-  ["He eats rice", "uha bhat khanchha", "उ भात खान्छ"],
-  ["He goes home", "uha ghar janchha", "उ घर जान्छ"],
-
-  // He/She (formal)
-  ["He eats rice (formal)", "wahaa bhat khanuhunchha", "उहाँ भात खानुहुन्छ"],
-  ["He goes home (formal)", "wahaa ghar januhunchha", "उहाँ घर जानुहुन्छ"],
-
-  // We
-  ["We eat rice", "haami bhat khanchhaun", "हामी भात खान्छौं"],
-  ["We go home", "haami ghar janchhaun", "हामी घर जान्छौं"],
-
-  // You all (semi-formal)
-  ["You all eat rice (semi-formal)", "timi haru bhat khauchhau", "तिमीहरू भात खाउँछौ"],
-  ["You all go home (semi-formal)", "timi haru ghar janchhau", "तिमीहरू घर जान्छौ"],
-
-  // You all (formal)
-  ["You all eat rice (formal)", "tapai haru bhat khanuhunchha", "तपाईंहरू भात खानुहुन्छ"],
-  ["You all go home (formal)", "tapai haru ghar januhunchha", "तपाईंहरू घर जानुहुन्छ"],
-
-  // They (informal)
-  ["They eat rice", "uni haru bhat khanchhan", "उनीहरू भात खान्छन्"],
-  ["They go home", "uni haru ghar janchhan", "उनीहरू घर जान्छन्"],
-
-  // They (formal)
-  ["They eat rice (formal)", "wahaa haru bhat khanuhunchha", "उहाँहरू भात खानुहुन्छ"],
-  ["They go home (formal)", "wahaa haru ghar januhunchha", "उहाँहरू घर जानुहुन्छ"]
-],
-
-present_continuous_tense: [
-  // I
-  ["I am eating rice", "ma bhat khāndaichhu", "म भात खाँदैछु"],
-  ["I am going home", "ma ghar jāndaichhu", "म घर जाँदैछु"],
-
-  // You (semi-formal)
-  ["You are eating rice (semi-formal)", "timi bhat khāndaichhau", "तिमी भात खाँदैछौ"],
-  ["You are going home (semi-formal)", "timi ghar jāndaichhau", "तिमी घर जाँदैछौ"],
-
-  // You (formal)
-  ["You are eating rice (formal)", "tapai bhat khāndaihunuhunchha", "तपाईं भात खाँदै हुनुहुन्छ"],
-  ["You are going home (formal)", "tapai ghar jāndaihunuhunchha", "तपाईं घर जाँदै हुनुहुन्छ"],
-
-  // He/She (informal)
-  ["He is eating rice", "uha bhat khāndaichha", "उ भात खाँदैछ"],
-  ["He is going home", "uha ghar jāndaichha", "उ घर जाँदैछ"],
-
-  // He/She (formal)
-  ["He is eating rice (formal)", "wahaa bhat khāndaihunuhunchha", "उहाँ भात खाँदै हुनुहुन्छ"],
-  ["He is going home (formal)", "wahaa ghar jāndaihunuhunchha", "उहाँ घर जाँदै हुनुहुन्छ"],
-
-  // We
-  ["We are eating rice", "haami bhat khāndaichhaun", "हामी भात खाँदैछौं"],
-  ["We are going home", "haami ghar jāndaichhaun", "हामी घर जाँदैछौं"],
-
-  // You all (semi-formal)
-  ["You all are eating rice (semi-formal)", "timi haru bhat khāndaichhau", "तिमीहरू भात खाँदैछौ"],
-  ["You all are going home (semi-formal)", "timi haru ghar jāndaichhau", "तिमीहरू घर जाँदैछौ"],
-
-  // You all (formal)
-  ["You all are eating rice (formal)", "tapai haru bhat khāndaihunuhunchha", "तपाईंहरू भात खाँदै हुनुहुन्छ"],
-  ["You all are going home (formal)", "tapai haru ghar jāndaihunuhunchha", "तपाईंहरू घर जाँदै हुनुहुन्छ"],
-
-  // They (informal)
-  ["They are eating rice", "uni haru bhat khāndaichhan", "उनीहरू भात खाँदैछन्"],
-  ["They are going home", "uni haru ghar jāndaichhan", "उनीहरू घर जाँदैछन्"],
-
-  // They (formal)
-  ["They are eating rice (formal)", "wahaa haru bhat khāndaihunuhunchha", "उहाँहरू भात खाँदै हुनुहुन्छ"],
-  ["They are going home (formal)", "wahaa haru ghar jāndaihunuhunchha", "उहाँहरू घर जाँदै हुनुहुन्छ"]
-],
+  ],
 "relationshipWords": [
-  ["Mother", "Aama", "आमा"],
-  ["Father", "Baa", "बाबा"],
-  ["Brother", "Dai", "दाई"],
-  ["Sister", "Didi", "दिदी"],
-  ["Friend", "Mitra", "मित्र"],
-  ["Husband", "Pati", "पति"],
-  ["Wife", "Patni", "पत्नी"],
-  ["Son", "Chhora", "छोरा"],
-  ["Daughter", "Chhori", "छोरी"]
+  ["Family", "Pariwaar", "परिवार"],
+    ["Father", "Buva", "बुवा"],
+    ["Mother", "Aama", "आमा"],
+    ["Brother (elder)", "Daai / daaju", "दाइ / दाजु"],
+    ["Brother (younger)", "Bhaai", "भाइ"],
+    ["Sister (elder)", "Didi", "दिदी"],
+    ["Sister (younger)", "Bahini", "बहिनी"],
+    ["Husband", "Shrimaan", "श्रीमान्"],
+    ["Wife", "Shrimati", "श्रीमती"],
+    ["Son", "Chhora", "छोरा"],
+    ["Daughter", "Chhori", "छोरी"],
 ],
 
-"Time": {
-  "daysOfWeek": [
+"Time": [
     ["Sunday", "Aaitabar", "आइतबार"],
     ["Monday", "Sombar", "सोमबार"],
     ["Tuesday", "Mangalbar", "मंगलबार"],
     ["Wednesday", "Budhabar", "बुधबार"],
     ["Thursday", "Bihibar", "बिहिबार"],
     ["Friday", "Shukrabar", "शुक्रबार"],
-    ["Saturday", "Sanibar", "शनिबार"]
-  ],
-  "timeUnits": [
+    ["Saturday", "Sanibar", "शनिबार"],
     ["Hour", "Ghaṇṭa", "घण्टा"],
     ["Minute", "Minute", "मिनेट"],
     ["Second", "Second", "सेकेण्ड"],
@@ -713,59 +416,42 @@ present_continuous_tense: [
     ["Evening", "Sandhya", "साँझ"],
     ["Night", "Raat", "रात"]
   ]
-}
 ,
-"prepositions": {
-  "place": [
+"prepositions":[
     ["On", "Mā", "मा"],
     ["Under", "Tāla", "तल्ला"],
     ["In", "Bhitra", "भित्र"],
     ["Out", "Bahira", "बाहिर"],
-    ["Beside", "Tira", "तिर"]
-  ],
-  "position": [
+    ["Beside", "Tira", "तिर"],
     ["Between", "Bīch", "बीच"],
     ["Near", "Nijikaṭ", "नजिकट"],
     ["Over", "Mūpār", "मुनि"],
     ["Behind", "Pīchhū", "पछाडि"],
     ["In front of", "Sāmnā", "सामना"]
   ]
-}
 ,
-"conjunctions": {
-  "coordination": [
+"conjunctions": [
     ["And", "Ra", "र"],
     ["But", "Tara", "तर"],
     ["Or", "Wa", "वा"],
     ["Nor", "Na ta", "न त"],
-    ["Yet", "Tara pani", "तर पनि"]
-  ],
-  "subordination": [
+    ["Yet", "Tara pani", "तर पनि"],
     ["Because", "Kinabhane", "किनभने"],
     ["If", "Yadi", "यदि"],
     ["Although", "Yadi pani", "यद्यपि"],
     ["Since", "Jaba dekhi", "जबदेखि"],
     ["While", "Jaba samma", "जबसम्म"]
-  ]
-}
-,
+  ],
 
- "question": {
-  "Wh-Question Words": [
+ "question":[
     ["What", "Ke", "के"],
-    ["Where", "Kahã", "कहाँ"],
+    ["Where", "Kahã", "कहाँ"],
     ["When", "Kahile", "कहिले"],
     ["Who", "Ko", "को"],
     ["Why", "Kin", "किन"],
     ["How", "Kasari", "कसरी"],
     ["Which", "Kun", "कुन"]
-  ],
-  "Yes / No Question Words": [
-    ["Are you", "Ke timi", "के तिमी"],
-    ["Is he", "Ke u", "के ऊ"],
-    ["Do you", "Ke tapaaĩ", "के तपाईं"]
   ]
-}
 ,
  IndependentVowels: {
     content: [
